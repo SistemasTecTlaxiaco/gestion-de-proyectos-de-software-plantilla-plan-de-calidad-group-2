@@ -2,13 +2,13 @@
 
 
 
-## GestiÃ³n de Proyectos de Software
+## Gestión de Proyectos de Software
 
 
 
-**Proyecto:** Plataforma comunitaria para la preservaciÃ³n y transmisiÃ³n de la lengua y memoria cultural de Santa MarÃ­a Cuquila
+**Proyecto:** Plataforma comunitaria para la preservación y transmisión de la lengua y memoria cultural de Santa María Cuquila
 
-**Asignatura:** GestiÃ³n de Proyectos de Software
+**Asignatura:** Gestión de Proyectos de Software
 
 **Unidad:** 2
 
@@ -22,27 +22,27 @@
 
 
 
-# 1. IntroducciÃ³n
+# 1. Introducción
 
 
 
-El presente Plan de Calidad establece los criterios, objetivos, mÃ©tricas, actividades de prevenciÃ³n, evaluaciÃ³n y correcciÃ³n que se utilizarÃ¡n para controlar la calidad del proyecto de software orientado a la preservaciÃ³n y transmisiÃ³n de la lengua y memoria cultural de Santa MarÃ­a Cuquila.
+El presente Plan de Calidad establece los criterios, objetivos, métricas, actividades de prevención, evaluación y corrección que se utilizarán para controlar la calidad del proyecto de software orientado a la preservación y transmisión de la lengua y memoria cultural de Santa María Cuquila.
 
 
 
-El sistema contempla funcionalidades para consultar palabras y expresiones, escuchar pronunciaciones, aportar conocimiento comunitario, consultar memoria cultural y validar contenido antes de su publicaciÃ³n.
+El sistema contempla funcionalidades para consultar palabras y expresiones, escuchar pronunciaciones, aportar conocimiento comunitario, consultar memoria cultural y validar contenido antes de su publicación.
 
 
 
-La calidad del proyecto no se limitarÃ¡ a comprobar que el software funcione. TambiÃ©n se considerarÃ¡n aspectos relacionados con facilidad de uso, accesibilidad, rendimiento, disponibilidad, mantenibilidad, integridad de la informaciÃ³n y adaptaciÃ³n al contexto de la regiÃ³n Mixteca.
+La calidad del proyecto no se limitará a comprobar que el software funcione. También se considerarán aspectos relacionados con facilidad de uso, accesibilidad, rendimiento, disponibilidad, mantenibilidad, integridad de la información y adaptación al contexto de la región Mixteca.
 
 
 
-Para establecer el plan se toman como referencia prÃ¡cticas de CMMI y MoProSoft, ademÃ¡s de modelos y recomendaciones complementarias como ISO/IEC 25010:2023 y WCAG 2.2.
+Para establecer el plan se toman como referencia prácticas de CMMI y MoProSoft, además de modelos y recomendaciones complementarias como ISO/IEC 25010:2023 y WCAG 2.2.
 
 
 
-ISO/IEC 25010:2023 proporciona un modelo de calidad para productos de software que puede utilizarse para especificar, medir y evaluar caracterÃ­sticas de calidad durante el ciclo de vida del producto.
+ISO/IEC 25010:2023 proporciona un modelo de calidad para productos de software que puede utilizarse para especificar, medir y evaluar características de calidad durante el ciclo de vida del producto.
 
 
 
@@ -58,7 +58,7 @@ WCAG 2.2 proporciona criterios verificables para mejorar la accesibilidad del co
 
 
 
-Garantizar que el producto de software cumpla los requisitos funcionales y no funcionales definidos para el proyecto, proporcionando una plataforma confiable, usable, accesible y mantenible que pueda funcionar adecuadamente bajo las condiciones tecnolÃ³gicas y de conectividad presentes en la regiÃ³n Mixteca.
+Garantizar que el producto de software cumpla los requisitos funcionales y no funcionales definidos para el proyecto, proporcionando una plataforma confiable, usable, accesible y mantenible que pueda funcionar adecuadamente bajo las condiciones tecnológicas y de conectividad presentes en la región Mixteca.
 
 
 
@@ -66,7 +66,7 @@ Garantizar que el producto de software cumpla los requisitos funcionales y no fu
 
 
 
-# 3. Objetivos especÃ­ficos de calidad
+# 3. Objetivos específicos de calidad
 
 
 
@@ -74,11 +74,11 @@ Garantizar que el producto de software cumpla los requisitos funcionales y no fu
 
 
 
-Garantizar que cada historia de usuario implemente correctamente la funcionalidad descrita y que sus criterios de aceptaciÃ³n puedan comprobarse mediante pruebas.
+Garantizar que cada historia de usuario implemente correctamente la funcionalidad descrita y que sus criterios de aceptación puedan comprobarse mediante pruebas.
 
 
 
-**Meta:** al menos 95 % de los criterios de aceptaciÃ³n deben cumplirse antes de considerar una historia terminada.
+**Meta:** al menos 95 % de los criterios de aceptación deben cumplirse antes de considerar una historia terminada.
 
 
 
@@ -86,11 +86,11 @@ Garantizar que cada historia de usuario implemente correctamente la funcionalida
 
 
 
-La plataforma debe permitir que los usuarios consulten informaciÃ³n y reproduzcan pronunciaciones sin requerir conocimientos tÃ©cnicos avanzados.
+La plataforma debe permitir que los usuarios consulten información y reproduzcan pronunciaciones sin requerir conocimientos técnicos avanzados.
 
 
 
-**Meta:** las funciones principales deben poder realizarse sin asistencia tÃ©cnica durante las pruebas de usuario.
+**Meta:** las funciones principales deben poder realizarse sin asistencia técnica durante las pruebas de usuario.
 
 
 
@@ -98,11 +98,11 @@ La plataforma debe permitir que los usuarios consulten informaciÃ³n y reproduz
 
 
 
-El sistema debe evitar cargas innecesarias de informaciÃ³n, especialmente en contenido multimedia.
+El sistema debe evitar cargas innecesarias de información, especialmente en contenido multimedia.
 
 
 
-**Meta:** las pÃ¡ginas principales deben responder en un tiempo mÃ¡ximo objetivo de 3 segundos en condiciones de conectividad estable y degradar de manera controlada cuando la conexiÃ³n sea lenta.
+**Meta:** las páginas principales deben responder en un tiempo máximo objetivo de 3 segundos en condiciones de conectividad estable y degradar de manera controlada cuando la conexión sea lenta.
 
 
 
@@ -110,17 +110,17 @@ El sistema debe evitar cargas innecesarias de informaciÃ³n, especialmente en c
 
 
 
-El sistema debe considerar conexiones mÃ³viles lentas o intermitentes.
+El sistema debe considerar conexiones móviles lentas o intermitentes.
 
 
 
-Se priorizarÃ¡n:
+Se priorizarán:
 
 
 
-* pÃ¡ginas ligeras;
+* páginas ligeras;
 
-* imÃ¡genes comprimidas;
+* imágenes comprimidas;
 
 * archivos de audio optimizados;
 
@@ -128,7 +128,7 @@ Se priorizarÃ¡n:
 
 * ausencia de elementos innecesarios;
 
-* posibilidad de consultar informaciÃ³n textual sin descargar archivos pesados.
+* posibilidad de consultar información textual sin descargar archivos pesados.
 
 
 
@@ -136,11 +136,11 @@ Se priorizarÃ¡n:
 
 
 
-La informaciÃ³n relacionada con palabras, expresiones, pronunciaciones y memoria cultural debe contar con mecanismos de revisiÃ³n y validaciÃ³n antes de su publicaciÃ³n.
+La información relacionada con palabras, expresiones, pronunciaciones y memoria cultural debe contar con mecanismos de revisión y validación antes de su publicación.
 
 
 
-**Meta:** 100 % del contenido destinado a publicaciÃ³n debe pasar por un proceso de validaciÃ³n.
+**Meta:** 100 % del contenido destinado a publicación debe pasar por un proceso de validación.
 
 
 
@@ -148,11 +148,11 @@ La informaciÃ³n relacionada con palabras, expresiones, pronunciaciones y memor
 
 
 
-La interfaz debe considerar principios de accesibilidad, incluyendo texto legible, navegaciÃ³n clara, contraste suficiente y alternativas adecuadas para contenido multimedia.
+La interfaz debe considerar principios de accesibilidad, incluyendo texto legible, navegación clara, contraste suficiente y alternativas adecuadas para contenido multimedia.
 
 
 
-Se utilizarÃ¡n como referencia los criterios verificables de WCAG 2.2.
+Se utilizarán como referencia los criterios verificables de WCAG 2.2.
 
 
 
@@ -160,11 +160,11 @@ Se utilizarÃ¡n como referencia los criterios verificables de WCAG 2.2.
 
 
 
-El cÃ³digo y la documentaciÃ³n deberÃ¡n mantenerse organizados para facilitar futuras modificaciones.
+El código y la documentación deberán mantenerse organizados para facilitar futuras modificaciones.
 
 
 
-**Meta:** cada funcionalidad terminada debe contar con documentaciÃ³n mÃ­nima, criterios de aceptaciÃ³n y evidencia de prueba.
+**Meta:** cada funcionalidad terminada debe contar con documentación mínima, criterios de aceptación y evidencia de prueba.
 
 
 
@@ -184,29 +184,29 @@ El Plan de Calidad cubre:
 
 2\. Requisitos funcionales.
 
-3\. Criterios de aceptaciÃ³n.
+3\. Criterios de aceptación.
 
-4\. DiseÃ±o y desarrollo.
+4\. Diseño y desarrollo.
 
 5\. Pruebas.
 
-6\. ValidaciÃ³n del contenido.
+6\. Validación del contenido.
 
-7\. RevisiÃ³n mediante inteligencia artificial.
+7\. Revisión mediante inteligencia artificial.
 
-8\. MÃ©tricas de calidad.
+8\. Métricas de calidad.
 
-9\. Costos de prevenciÃ³n y correcciÃ³n.
+9\. Costos de prevención y corrección.
 
 10\. Control de cambios.
 
-11\. DocumentaciÃ³n.
+11\. Documentación.
 
-12\. AdaptaciÃ³n a condiciones de conectividad limitada.
+12\. Adaptación a condiciones de conectividad limitada.
 
 
 
-El plan no representa una certificaciÃ³n formal del proyecto en CMMI, MoProSoft, ISO/IEC 25010 o WCAG. Estos modelos y estÃ¡ndares se utilizan como referencias para diseÃ±ar y evaluar las prÃ¡cticas de calidad del proyecto.
+El plan no representa una certificación formal del proyecto en CMMI, MoProSoft, ISO/IEC 25010 o WCAG. Estos modelos y estándares se utilizan como referencias para diseñar y evaluar las prácticas de calidad del proyecto.
 
 
 
@@ -214,23 +214,23 @@ El plan no representa una certificaciÃ³n formal del proyecto en CMMI, MoProSof
 
 
 
-# 5. AplicaciÃ³n de CMMI
+# 5. Aplicación de CMMI
 
 
 
-CMMI se utilizarÃ¡ como referencia para organizar las actividades relacionadas con planificaciÃ³n, mediciÃ³n, aseguramiento de calidad, verificaciÃ³n y validaciÃ³n.
+CMMI se utilizará como referencia para organizar las actividades relacionadas con planificación, medición, aseguramiento de calidad, verificación y validación.
 
 
 
-La aplicaciÃ³n al proyecto serÃ¡ prÃ¡ctica y proporcional al tamaÃ±o del equipo.
+La aplicación al proyecto será práctica y proporcional al tamaño del equipo.
 
 
 
-## 5.1 PlanificaciÃ³n
+## 5.1 Planificación
 
 
 
-Antes de desarrollar una funcionalidad se identificarÃ¡n:
+Antes de desarrollar una funcionalidad se identificarán:
 
 
 
@@ -238,7 +238,7 @@ Antes de desarrollar una funcionalidad se identificarÃ¡n:
 
 * objetivo;
 
-* criterios de aceptaciÃ³n;
+* criterios de aceptación;
 
 * riesgos;
 
@@ -250,21 +250,21 @@ Antes de desarrollar una funcionalidad se identificarÃ¡n:
 
 
 
-## 5.2 MediciÃ³n y anÃ¡lisis
+## 5.2 Medición y análisis
 
 
 
-Se registrarÃ¡n mÃ©tricas relacionadas con:
+Se registrarán métricas relacionadas con:
 
 
 
-* horas de prevenciÃ³n;
+* horas de prevención;
 
-* horas de correcciÃ³n;
+* horas de corrección;
 
 * defectos encontrados;
 
-* criterios de aceptaciÃ³n cumplidos;
+* criterios de aceptación cumplidos;
 
 * pruebas realizadas;
 
@@ -278,17 +278,17 @@ Se registrarÃ¡n mÃ©tricas relacionadas con:
 
 
 
-Se realizarÃ¡n revisiones periÃ³dicas de:
+Se realizarán revisiones periódicas de:
 
 
 
 * historias de usuario;
 
-* cÃ³digo;
+* código;
 
-* criterios de aceptaciÃ³n;
+* criterios de aceptación;
 
-* documentaciÃ³n;
+* documentación;
 
 * resultados de pruebas;
 
@@ -296,11 +296,11 @@ Se realizarÃ¡n revisiones periÃ³dicas de:
 
 
 
-## 5.4 VerificaciÃ³n
+## 5.4 Verificación
 
 
 
-Se comprobarÃ¡ que el producto construido cumple los requisitos especificados.
+Se comprobará que el producto construido cumple los requisitos especificados.
 
 
 
@@ -312,35 +312,35 @@ Ejemplos:
 
 * comprobar que el audio pueda reproducirse;
 
-* comprobar que una aportaciÃ³n pueda registrarse;
+* comprobar que una aportación pueda registrarse;
 
 * comprobar que un administrador pueda validar contenido.
 
 
 
-## 5.5 ValidaciÃ³n
+## 5.5 Validación
 
 
 
-Se comprobarÃ¡ que la soluciÃ³n realmente responde a las necesidades planteadas para el contexto del proyecto.
+Se comprobará que la solución realmente responde a las necesidades planteadas para el contexto del proyecto.
 
 
 
-La validaciÃ³n considerarÃ¡:
+La validación considerará:
 
 
 
 * facilidad de uso;
 
-* comprensiÃ³n de la interfaz;
+* comprensión de la interfaz;
 
 * conectividad;
 
-* caracterÃ­sticas de los dispositivos;
+* características de los dispositivos;
 
 * utilidad del contenido;
 
-* comprensiÃ³n de las funcionalidades.
+* comprensión de las funcionalidades.
 
 
 
@@ -348,23 +348,23 @@ La validaciÃ³n considerarÃ¡:
 
 
 
-# 6. AplicaciÃ³n de MoProSoft
+# 6. Aplicación de MoProSoft
 
 
 
-MoProSoft es un modelo de procesos dirigido a organizaciones dedicadas al desarrollo y mantenimiento de software. La Norma Mexicana establece que puede utilizarse tanto en organizaciones con procesos establecidos como en organizaciones que todavÃ­a no cuentan con ellos.
+MoProSoft es un modelo de procesos dirigido a organizaciones dedicadas al desarrollo y mantenimiento de software. La Norma Mexicana establece que puede utilizarse tanto en organizaciones con procesos establecidos como en organizaciones que todavía no cuentan con ellos.
 
 
 
-Para este proyecto se adaptarÃ¡n sus prÃ¡cticas a una escala acadÃ©mica.
+Para este proyecto se adaptarán sus prácticas a una escala académica.
 
 
 
-## 6.1 GestiÃ³n del proyecto
+## 6.1 Gestión del proyecto
 
 
 
-Se mantendrÃ¡ control sobre:
+Se mantendrá control sobre:
 
 
 
@@ -390,23 +390,23 @@ Se mantendrÃ¡ control sobre:
 
 
 
-Cada historia de usuario seguirÃ¡ el ciclo:
+Cada historia de usuario seguirá el ciclo:
 
 
 
-**Requisito â†’ diseÃ±o â†’ desarrollo â†’ prueba â†’ revisiÃ³n â†’ correcciÃ³n â†’ aceptaciÃ³n**
+**Requisito → diseño → desarrollo → prueba → revisión → corrección → aceptación**
 
 
 
-No se considerarÃ¡ terminada una historia Ãºnicamente porque el cÃ³digo funcione.
+No se considerará terminada una historia únicamente porque el código funcione.
 
 
 
-## 6.3 GestiÃ³n de procesos
+## 6.3 Gestión de procesos
 
 
 
-Las actividades de calidad se documentarÃ¡n para poder repetirlas en futuras iteraciones.
+Las actividades de calidad se documentarán para poder repetirlas en futuras iteraciones.
 
 
 
@@ -414,9 +414,9 @@ Entre ellas:
 
 
 
-* revisiÃ³n de historias;
+* revisión de historias;
 
-* revisiÃ³n de criterios;
+* revisión de criterios;
 
 * pruebas;
 
@@ -424,11 +424,11 @@ Entre ellas:
 
 * correcciones;
 
-* evaluaciÃ³n de mÃ©tricas.
+* evaluación de métricas.
 
 
 
-## 6.4 GestiÃ³n de recursos
+## 6.4 Gestión de recursos
 
 
 
@@ -440,9 +440,9 @@ Los recursos considerados son:
 
 * computadoras;
 
-* dispositivos mÃ³viles;
+* dispositivos móviles;
 
-* conexiÃ³n a Internet;
+* conexión a Internet;
 
 * repositorio GitHub;
 
@@ -450,7 +450,7 @@ Los recursos considerados son:
 
 * herramientas de prueba;
 
-* inteligencia artificial como apoyo a la revisiÃ³n.
+* inteligencia artificial como apoyo a la revisión.
 
 
 
@@ -462,25 +462,25 @@ Los recursos considerados son:
 
 
 
-| Necesidad del proyecto | CMMI                     | MoProSoft                  | AplicaciÃ³n                                 |
+| Necesidad del proyecto | CMMI                     | MoProSoft                  | Aplicación                                 |
 
 | ---------------------- | ------------------------ | -------------------------- | ------------------------------------------ |
 
-| Planificar historias   | PlanificaciÃ³n            | GestiÃ³n de proyectos       | Definir alcance, responsable y criterios   |
+| Planificar historias   | Planificación            | Gestión de proyectos       | Definir alcance, responsable y criterios   |
 
-| Medir calidad          | MediciÃ³n y anÃ¡lisis      | GestiÃ³n de procesos        | Registrar mÃ©tricas                         |
+| Medir calidad          | Medición y análisis      | Gestión de procesos        | Registrar métricas                         |
 
-| Revisar requisitos     | GestiÃ³n de requisitos    | Desarrollo y mantenimiento | Revisar claridad y verificabilidad         |
+| Revisar requisitos     | Gestión de requisitos    | Desarrollo y mantenimiento | Revisar claridad y verificabilidad         |
 
 | Revisar producto       | Aseguramiento de calidad | Desarrollo y mantenimiento | Revisiones antes de aceptar                |
 
-| Realizar pruebas       | VerificaciÃ³n             | Desarrollo y mantenimiento | Ejecutar casos de prueba                   |
+| Realizar pruebas       | Verificación             | Desarrollo y mantenimiento | Ejecutar casos de prueba                   |
 
-| Validar con usuarios   | ValidaciÃ³n               | GestiÃ³n de proyectos       | Comprobar utilidad                         |
+| Validar con usuarios   | Validación               | Gestión de proyectos       | Comprobar utilidad                         |
 
-| Controlar cambios      | GestiÃ³n de configuraciÃ³n | GestiÃ³n de proyectos       | Registrar modificaciones                   |
+| Controlar cambios      | Gestión de configuración | Gestión de proyectos       | Registrar modificaciones                   |
 
-| Analizar riesgos       | GestiÃ³n de riesgos       | GestiÃ³n de proyectos       | Identificar problemas antes del desarrollo |
+| Analizar riesgos       | Gestión de riesgos       | Gestión de proyectos       | Identificar problemas antes del desarrollo |
 
 
 
@@ -492,7 +492,7 @@ Los recursos considerados son:
 
 
 
-El anÃ¡lisis de calidad se realizarÃ¡ sobre las seis historias de usuario principales del proyecto:
+El análisis de calidad se realizará sobre las seis historias de usuario principales del proyecto:
 
 
 
@@ -514,7 +514,7 @@ El anÃ¡lisis de calidad se realizarÃ¡ sobre las seis historias de usuario pr
 
 
 
-Estas historias constituyen la unidad principal para el anÃ¡lisis de prevenciÃ³n, correcciÃ³n y costo de calidad.
+Estas historias constituyen la unidad principal para el análisis de prevención, corrección y costo de calidad.
 
 
 
@@ -526,11 +526,11 @@ Estas historias constituyen la unidad principal para el anÃ¡lisis de prevenci�
 
 
 
-Para este proyecto se utilizarÃ¡ una clasificaciÃ³n simplificada:
+Para este proyecto se utilizará una clasificación simplificada:
 
 
 
-### Costos de prevenciÃ³n
+### Costos de prevención
 
 
 
@@ -542,19 +542,19 @@ Ejemplos:
 
 
 
-* anÃ¡lisis de requisitos;
+* análisis de requisitos;
 
-* revisiÃ³n de historias;
+* revisión de historias;
 
-* diseÃ±o de criterios de aceptaciÃ³n;
+* diseño de criterios de aceptación;
 
-* revisiÃ³n mediante IA;
+* revisión mediante IA;
 
-* planificaciÃ³n de pruebas.
+* planificación de pruebas.
 
 
 
-### Costos de evaluaciÃ³n
+### Costos de evaluación
 
 
 
@@ -570,19 +570,19 @@ Ejemplos:
 
 * pruebas de usabilidad;
 
-* revisiÃ³n de contenido;
+* revisión de contenido;
 
 * pruebas de conectividad;
 
-* inspecciÃ³n de cÃ³digo.
+* inspección de código.
 
 
 
-### Costos de correcciÃ³n
+### Costos de corrección
 
 
 
-Son las horas utilizadas para resolver errores encontrados despuÃ©s de la implementaciÃ³n.
+Son las horas utilizadas para resolver errores encontrados después de la implementación.
 
 
 
@@ -590,7 +590,7 @@ Ejemplos:
 
 
 
-* corregir errores de programaciÃ³n;
+* corregir errores de programación;
 
 * modificar una interfaz;
 
@@ -606,19 +606,19 @@ Ejemplos:
 
 
 
-# 10. Indicador j: prevenciÃ³n contra correcciÃ³n
+# 10. Indicador j: prevención contra corrección
 
 
 
-Para medir la relaciÃ³n entre prevenciÃ³n y correcciÃ³n se utilizarÃ¡:
+Para medir la relación entre prevención y corrección se utilizará:
 
 
 
-**j = Horas de prevenciÃ³n / Horas de correcciÃ³n**
+**j = Horas de prevención / Horas de corrección**
 
 
 
-InterpretaciÃ³n:
+Interpretación:
 
 
 
@@ -630,7 +630,7 @@ InterpretaciÃ³n:
 
 
 
-Las horas son una estimaciÃ³n acadÃ©mica para comparar el esfuerzo requerido por cada historia de usuario. No representan una factura comercial.
+Las horas son una estimación académica para comparar el esfuerzo requerido por cada historia de usuario. No representan una factura comercial.
 
 
 
@@ -646,11 +646,11 @@ Para calcular el costo se utiliza un valor interno de referencia de:
 
 
 
-# 11. CÃ¡lculo de j por historia de usuario
+# 11. Cálculo de j por historia de usuario
 
 
 
-| HU        | PrevenciÃ³n (h) | EvaluaciÃ³n (h) | CorrecciÃ³n (h) | j = PrevenciÃ³n/Corr. | Costo prevenciÃ³n | Costo evaluaciÃ³n | Costo correcciÃ³n | Costo total |
+| HU        | Prevención (h) | Evaluación (h) | Corrección (h) | j = Prevención/Corr. | Costo prevención | Costo evaluación | Costo corrección | Costo total |
 
 | --------- | -------------: | -------------: | -------------: | -------------------: | ---------------: | ---------------: | ---------------: | ----------: |
 
@@ -670,7 +670,7 @@ Para calcular el costo se utiliza un valor interno de referencia de:
 
 
 
-### InterpretaciÃ³n
+### Interpretación
 
 
 
@@ -682,23 +682,23 @@ El indicador global es:
 
 
 
-Esto significa que, en la estimaciÃ³n inicial, el proyecto dedica menos horas a prevenciÃ³n que a correcciÃ³n.
+Esto significa que, en la estimación inicial, el proyecto dedica menos horas a prevención que a corrección.
 
 
 
-Por lo tanto, existe una oportunidad clara de mejorar la calidad mediante mayor inversiÃ³n preventiva.
+Por lo tanto, existe una oportunidad clara de mejorar la calidad mediante mayor inversión preventiva.
 
 
 
-El objetivo para las siguientes iteraciones serÃ¡ elevar progresivamente el indicador hacia:
+El objetivo para las siguientes iteraciones será elevar progresivamente el indicador hacia:
 
 
 
-**j â‰¥ 1.00**
+**j ≥ 1.00**
 
 
 
-Esto significa que se buscarÃ¡ invertir al menos una hora de prevenciÃ³n por cada hora estimada de correcciÃ³n.
+Esto significa que se buscará invertir al menos una hora de prevención por cada hora estimada de corrección.
 
 
 
@@ -706,11 +706,11 @@ Esto significa que se buscarÃ¡ invertir al menos una hora de prevenciÃ³n por
 
 
 
-# 12. AnÃ¡lisis individual de las historias
+# 12. Análisis individual de las historias
 
 
 
-## HU-01 â€“ Consultar palabras y expresiones
+## HU-01 – Consultar palabras y expresiones
 
 
 
@@ -718,21 +718,21 @@ Esto significa que se buscarÃ¡ invertir al menos una hora de prevenciÃ³n por
 
 
 
-* bÃºsqueda poco clara;
+* búsqueda poco clara;
 
 * resultados incompletos;
 
-* errores ortogrÃ¡ficos;
+* errores ortográficos;
 
 * tiempos de respuesta elevados.
 
 
 
-### PrevenciÃ³n
+### Prevención
 
 
 
-* definir criterios de bÃºsqueda;
+* definir criterios de búsqueda;
 
 * revisar estructura de datos;
 
@@ -740,7 +740,7 @@ Esto significa que se buscarÃ¡ invertir al menos una hora de prevenciÃ³n por
 
 
 
-### EvaluaciÃ³n
+### Evaluación
 
 
 
@@ -752,11 +752,11 @@ Esto significa que se buscarÃ¡ invertir al menos una hora de prevenciÃ³n por
 
 
 
-### CorrecciÃ³n
+### Corrección
 
 
 
-Se estiman 3 horas debido a posibles ajustes en bÃºsqueda, presentaciÃ³n y datos.
+Se estiman 3 horas debido a posibles ajustes en búsqueda, presentación y datos.
 
 
 
@@ -768,7 +768,7 @@ Se estiman 3 horas debido a posibles ajustes en bÃºsqueda, presentaciÃ³n y d
 
 
 
-La prevenciÃ³n es superior a la correcciÃ³n estimada.
+La prevención es superior a la corrección estimada.
 
 
 
@@ -776,7 +776,7 @@ La prevenciÃ³n es superior a la correcciÃ³n estimada.
 
 
 
-# 13. HU-02 â€“ Escuchar pronunciaciones
+# 13. HU-02 – Escuchar pronunciaciones
 
 
 
@@ -786,7 +786,7 @@ La prevenciÃ³n es superior a la correcciÃ³n estimada.
 
 * archivos de audio demasiado grandes;
 
-* reproducciÃ³n lenta;
+* reproducción lenta;
 
 * formato incompatible;
 
@@ -794,7 +794,7 @@ La prevenciÃ³n es superior a la correcciÃ³n estimada.
 
 
 
-### PrevenciÃ³n
+### Prevención
 
 
 
@@ -802,13 +802,13 @@ La prevenciÃ³n es superior a la correcciÃ³n estimada.
 
 * comprimir audio;
 
-* establecer tamaÃ±o mÃ¡ximo;
+* establecer tamaño máximo;
 
-* diseÃ±ar carga bajo demanda.
+* diseñar carga bajo demanda.
 
 
 
-### EvaluaciÃ³n
+### Evaluación
 
 
 
@@ -816,11 +816,11 @@ La prevenciÃ³n es superior a la correcciÃ³n estimada.
 
 * probar conexiones lentas;
 
-* comprobar reproducciÃ³n y pausa.
+* comprobar reproducción y pausa.
 
 
 
-### CorrecciÃ³n
+### Corrección
 
 
 
@@ -836,7 +836,7 @@ Se estiman 5 horas debido a la complejidad adicional del contenido multimedia.
 
 
 
-La prevenciÃ³n y la correcciÃ³n tienen el mismo esfuerzo estimado.
+La prevención y la corrección tienen el mismo esfuerzo estimado.
 
 
 
@@ -844,7 +844,7 @@ La prevenciÃ³n y la correcciÃ³n tienen el mismo esfuerzo estimado.
 
 
 
-# 14. HU-03 â€“ Aportar conocimiento
+# 14. HU-03 – Aportar conocimiento
 
 
 
@@ -852,17 +852,17 @@ La prevenciÃ³n y la correcciÃ³n tienen el mismo esfuerzo estimado.
 
 
 
-* informaciÃ³n incorrecta;
+* información incorrecta;
 
-* formularios difÃ­ciles de utilizar;
+* formularios difíciles de utilizar;
 
 * datos incompletos;
 
-* aportaciones sin validaciÃ³n.
+* aportaciones sin validación.
 
 
 
-### PrevenciÃ³n
+### Prevención
 
 
 
@@ -872,11 +872,11 @@ La prevenciÃ³n y la correcciÃ³n tienen el mismo esfuerzo estimado.
 
 * establecer reglas de contenido;
 
-* definir flujo de revisiÃ³n.
+* definir flujo de revisión.
 
 
 
-### EvaluaciÃ³n
+### Evaluación
 
 
 
@@ -884,15 +884,15 @@ La prevenciÃ³n y la correcciÃ³n tienen el mismo esfuerzo estimado.
 
 * probar datos incompletos;
 
-* probar entradas invÃ¡lidas.
+* probar entradas inválidas.
 
 
 
-### CorrecciÃ³n
+### Corrección
 
 
 
-Se estiman 8 horas porque los errores pueden involucrar interfaz, validaciÃ³n y almacenamiento.
+Se estiman 8 horas porque los errores pueden involucrar interfaz, validación y almacenamiento.
 
 
 
@@ -912,7 +912,7 @@ Existe mayor esfuerzo correctivo que preventivo.
 
 
 
-# 15. HU-04 â€“ Consultar memoria cultural
+# 15. HU-04 – Consultar memoria cultural
 
 
 
@@ -920,43 +920,43 @@ Existe mayor esfuerzo correctivo que preventivo.
 
 
 
-* informaciÃ³n extensa;
+* información extensa;
 
-* navegaciÃ³n complicada;
+* navegación complicada;
 
-* imÃ¡genes pesadas;
+* imágenes pesadas;
 
 * dificultad de consulta con Internet lento.
 
 
 
-### PrevenciÃ³n
+### Prevención
 
 
 
-* organizar la informaciÃ³n por categorÃ­as;
+* organizar la información por categorías;
 
-* optimizar imÃ¡genes;
+* optimizar imágenes;
 
 * utilizar contenido ligero;
 
-* definir navegaciÃ³n sencilla.
+* definir navegación sencilla.
 
 
 
-### EvaluaciÃ³n
+### Evaluación
 
 
 
-* probar navegaciÃ³n;
+* probar navegación;
 
 * revisar tiempos de carga;
 
-* comprobar visualizaciÃ³n en dispositivos mÃ³viles.
+* comprobar visualización en dispositivos móviles.
 
 
 
-### CorrecciÃ³n
+### Corrección
 
 
 
@@ -980,7 +980,7 @@ Se requiere aumentar las actividades preventivas.
 
 
 
-# 16. HU-05 â€“ Validar contenido
+# 16. HU-05 – Validar contenido
 
 
 
@@ -988,17 +988,17 @@ Se requiere aumentar las actividades preventivas.
 
 
 
-* publicaciÃ³n de informaciÃ³n incorrecta;
+* publicación de información incorrecta;
 
 * ausencia de responsable;
 
 * falta de trazabilidad;
 
-* aprobaciÃ³n accidental.
+* aprobación accidental.
 
 
 
-### PrevenciÃ³n
+### Prevención
 
 
 
@@ -1008,15 +1008,15 @@ Se requiere aumentar las actividades preventivas.
 
 * registrar cambios;
 
-* establecer criterios de aprobaciÃ³n.
+* establecer criterios de aprobación.
 
 
 
-### EvaluaciÃ³n
+### Evaluación
 
 
 
-* probar aprobaciÃ³n;
+* probar aprobación;
 
 * probar rechazo;
 
@@ -1024,7 +1024,7 @@ Se requiere aumentar las actividades preventivas.
 
 
 
-### CorrecciÃ³n
+### Corrección
 
 
 
@@ -1040,7 +1040,7 @@ Se estiman 6 horas.
 
 
 
-Existe oportunidad para aumentar la prevenciÃ³n.
+Existe oportunidad para aumentar la prevención.
 
 
 
@@ -1048,7 +1048,7 @@ Existe oportunidad para aumentar la prevenciÃ³n.
 
 
 
-# 17. HU-06 â€“ Escuchar pronunciaciones
+# 17. HU-06 – Escuchar pronunciaciones
 
 
 
@@ -1058,21 +1058,21 @@ Existe oportunidad para aumentar la prevenciÃ³n.
 
 * duplicidad con contenido de audio;
 
-* reproducciÃ³n inconsistente;
+* reproducción inconsistente;
 
 * archivos demasiado pesados;
 
-* dificultades de acceso desde dispositivos mÃ³viles.
+* dificultades de acceso desde dispositivos móviles.
 
 
 
-### PrevenciÃ³n
+### Prevención
 
 
 
 * reutilizar componentes;
 
-* definir estÃ¡ndares de audio;
+* definir estándares de audio;
 
 * optimizar archivos;
 
@@ -1080,21 +1080,21 @@ Existe oportunidad para aumentar la prevenciÃ³n.
 
 
 
-### EvaluaciÃ³n
+### Evaluación
 
 
 
-* probar reproducciÃ³n;
+* probar reproducción;
 
 * probar pausa;
 
 * probar dispositivos diferentes;
 
-* probar conexiÃ³n lenta.
+* probar conexión lenta.
 
 
 
-### CorrecciÃ³n
+### Corrección
 
 
 
@@ -1118,15 +1118,15 @@ El esfuerzo preventivo debe incrementarse.
 
 
 
-# 18. AdaptaciÃ³n al contexto de la Mixteca
+# 18. Adaptación al contexto de la Mixteca
 
 
 
-La calidad del software debe evaluarse considerando las condiciones reales en las que podrÃ­a utilizarse.
+La calidad del software debe evaluarse considerando las condiciones reales en las que podría utilizarse.
 
 
 
-No se puede asumir que todos los usuarios tendrÃ¡n:
+No se puede asumir que todos los usuarios tendrán:
 
 
 
@@ -1134,15 +1134,15 @@ No se puede asumir que todos los usuarios tendrÃ¡n:
 
 * equipos modernos;
 
-* telÃ©fonos con gran capacidad de almacenamiento;
+* teléfonos con gran capacidad de almacenamiento;
 
-* conexiÃ³n permanente;
+* conexión permanente;
 
-* conocimientos tÃ©cnicos avanzados.
+* conocimientos técnicos avanzados.
 
 
 
-Por esta razÃ³n, el plan considera:
+Por esta razón, el plan considera:
 
 
 
@@ -1158,7 +1158,7 @@ Las pruebas deben incluir conexiones lentas e intermitentes.
 
 
 
-Se deben realizar pruebas en telÃ©fonos y computadoras con diferentes capacidades.
+Se deben realizar pruebas en teléfonos y computadoras con diferentes capacidades.
 
 
 
@@ -1174,7 +1174,7 @@ Los archivos de audio deben mantenerse optimizados para evitar consumo innecesar
 
 
 
-La interfaz debe utilizar lenguaje claro, navegaciÃ³n sencilla y elementos visuales fÃ¡ciles de identificar.
+La interfaz debe utilizar lenguaje claro, navegación sencilla y elementos visuales fáciles de identificar.
 
 
 
@@ -1182,7 +1182,7 @@ La interfaz debe utilizar lenguaje claro, navegaciÃ³n sencilla y elementos vis
 
 
 
-Las funciones principales deben degradar de forma controlada cuando la conexiÃ³n no sea estable.
+Las funciones principales deben degradar de forma controlada cuando la conexión no sea estable.
 
 
 
@@ -1190,7 +1190,7 @@ Las funciones principales deben degradar de forma controlada cuando la conexiÃ�
 
 
 
-La informaciÃ³n comunitaria debe tener mecanismos de revisiÃ³n para evitar modificaciones o publicaciones sin autorizaciÃ³n.
+La información comunitaria debe tener mecanismos de revisión para evitar modificaciones o publicaciones sin autorización.
 
 
 
@@ -1198,23 +1198,24 @@ La informaciÃ³n comunitaria debe tener mecanismos de revisiÃ³n para evitar m
 
 
 
-# 19. MÃ©tricas de calidad
+# 19. Métricas de calidad
 
 
 
-| MÃ©trica                   | FÃ³rmula                                          | Meta   |
+| Métrica                   | Fórmula                                          | Meta   |
 
 | ------------------------- | ------------------------------------------------ | ------ |
 
-| Cumplimiento de criterios | criterios cumplidos / criterios totales Ã— 100    | â‰¥ 95 % |
+| Cumplimiento de criterios | criterios cumplidos / criterios totales × 100    | ≥ 95 % |
 
-| Cobertura de pruebas      | casos ejecutados / casos planeados Ã— 100         | â‰¥ 90 % |
+| Cobertura de pruebas      | casos ejecutados / casos planeados × 100         | ≥ 90 % |
 
-| Correcciones              | defectos corregidos / defectos encontrados Ã— 100 | â‰¥ 95 % |
+| Correcciones              | defectos corregidos / defectos encontrados × 100 | ≥ 95 % |
 
-| Contenido validado        | contenido validado / contenido publicado Ã— 100   | 100 %  |
+| Contenido validado        | contenido validado / contenido publicado × 100   | 100 %  |
 
-| Historias aceptadas       | HU aceptadas / HU terminadas Ã— 100               | â‰¥      |
+| Historias aceptadas       | HU aceptadas / HU terminadas × 100               | ≥      |
+
 
 
 

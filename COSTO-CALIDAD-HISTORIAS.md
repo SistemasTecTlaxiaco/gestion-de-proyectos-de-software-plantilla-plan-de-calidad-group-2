@@ -6,31 +6,31 @@
 
 
 
-Este documento presenta el anÃ¡lisis detallado del costo de calidad para cada historia de usuario del proyecto.
+Este documento presenta el análisis detallado del costo de calidad para cada historia de usuario del proyecto.
 
 
 
-El anÃ¡lisis distingue tres tipos de actividades:
+El análisis distingue tres tipos de actividades:
 
 
 
-- PrevenciÃ³n.
+- Prevención.
 
-- EvaluaciÃ³n.
+- Evaluación.
 
-- CorrecciÃ³n.
-
-
-
-TambiÃ©n se calcula el indicador:
+- Corrección.
 
 
 
-**j = Horas de prevenciÃ³n / Horas de correcciÃ³n**
+También se calcula el indicador:
 
 
 
-El propÃ³sito es identificar quÃ© historias requieren mayor inversiÃ³n preventiva.
+**j = Horas de prevención / Horas de corrección**
+
+
+
+El propósito es identificar qué historias requieren mayor inversión preventiva.
 
 
 
@@ -42,7 +42,7 @@ El propÃ³sito es identificar quÃ© historias requieren mayor inversiÃ³n pre
 
 
 
-Para realizar una comparaciÃ³n econÃ³mica se utiliza un valor interno acadÃ©mico de:
+Para realizar una comparación económica se utiliza un valor interno académico de:
 
 
 
@@ -50,7 +50,7 @@ Para realizar una comparaciÃ³n econÃ³mica se utiliza un valor interno acadÃ
 
 
 
-Este valor es Ãºnicamente una referencia para estimar el esfuerzo del equipo. No representa una tarifa comercial ni un presupuesto real.
+Este valor es únicamente una referencia para estimar el esfuerzo del equipo. No representa una tarifa comercial ni un presupuesto real.
 
 
 
@@ -58,11 +58,11 @@ Este valor es Ãºnicamente una referencia para estimar el esfuerzo del equipo. 
 
 
 
-# 3. HU-01 â€” Consultar palabras y expresiones
+# 3. HU-01 — Consultar palabras y expresiones
 
 
 
-## PrevenciÃ³n
+## Prevención
 
 
 
@@ -72,19 +72,19 @@ Actividades:
 
 - revisar los requisitos;
 
-- definir comportamiento de bÃºsqueda;
+- definir comportamiento de búsqueda;
 
-- establecer criterios de aceptaciÃ³n;
+- establecer criterios de aceptación;
 
 - preparar casos de prueba.
 
 
 
-**Horas de prevenciÃ³n: 4**
+**Horas de prevención: 4**
 
 
 
-## EvaluaciÃ³n
+## Evaluación
 
 
 
@@ -92,19 +92,19 @@ Actividades:
 
 
 
-- bÃºsqueda de palabras existentes;
+- búsqueda de palabras existentes;
 
-- bÃºsqueda de palabras inexistentes;
+- búsqueda de palabras inexistentes;
 
 - prueba de diferentes entradas.
 
 
 
-**Horas de evaluaciÃ³n: 2**
+**Horas de evaluación: 2**
 
 
 
-## CorrecciÃ³n
+## Corrección
 
 
 
@@ -112,15 +112,15 @@ Posibles actividades:
 
 
 
-- corregir resultados de bÃºsqueda;
+- corregir resultados de búsqueda;
 
 - corregir validaciones;
 
-- ajustar presentaciÃ³n de resultados.
+- ajustar presentación de resultados.
 
 
 
-**Horas de correcciÃ³n: 3**
+**Horas de corrección: 3**
 
 
 
@@ -130,10 +130,11 @@ Posibles actividades:
 
 ```text
 
-j = PrevenciÃ³n / CorrecciÃ³n
+j = Prevención / Corrección
 
 j = 4 / 3
 
 j = 1.33
+
 
 

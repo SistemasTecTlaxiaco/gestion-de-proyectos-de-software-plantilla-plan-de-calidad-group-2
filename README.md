@@ -1,4 +1,4 @@
-﻿# Plan de Calidad - GestiÃ³n de Proyectos de Software
+﻿# Plan de Calidad - Gestión de Proyectos de Software
 
 
 
@@ -6,7 +6,7 @@
 
 
 
-Plataforma comunitaria para la preservaciÃ³n y transmisiÃ³n de la lengua y memoria cultural de Santa MarÃ­a Cuquila.
+Plataforma comunitaria para la preservación y transmisión de la lengua y memoria cultural de Santa María Cuquila.
 
 
 
@@ -18,7 +18,7 @@ Establecer un Plan de Calidad que permita evaluar, medir, prevenir y corregir pr
 
 
 
-## EstÃ¡ndares y modelos utilizados
+## Estándares y modelos utilizados
 
 
 
@@ -32,25 +32,25 @@ Establecer un Plan de Calidad que permita evaluar, medir, prevenir y corregir pr
 
 
 
-## DocumentaciÃ³n
+## Documentación
 
 
 
-| Documento | DescripciÃ³n |
+| Documento | Descripción |
 
 |---|---|
 
 | \[PLAN-CALIDAD.md](PLAN-CALIDAD.md) | Plan general de calidad |
 
-| \[METRICAS-CALIDAD.md](METRICAS-CALIDAD.md) | MÃ©tricas e indicadores |
+| \[METRICAS-CALIDAD.md](METRICAS-CALIDAD.md) | Métricas e indicadores |
 
 | \[COSTO-CALIDAD-HISTORIAS.md](COSTO-CALIDAD-HISTORIAS.md) | Costo de calidad por HU |
 
-| \[AUDITORIA-IA.md](AUDITORIA-IA.md) | AuditorÃ­a de historias mediante IA |
+| \[AUDITORIA-IA.md](AUDITORIA-IA.md) | Auditoría de historias mediante IA |
 
 | \[PRUEBAS-CALIDAD.md](PRUEBAS-CALIDAD.md) | Plan de pruebas |
 
-| \[INVESTIGACION-COMPLEMENTARIA.md](INVESTIGACION-COMPLEMENTARIA.md) | InvestigaciÃ³n tÃ©cnica complementaria |
+| \[INVESTIGACION-COMPLEMENTARIA.md](INVESTIGACION-COMPLEMENTARIA.md) | Investigación técnica complementaria |
 
 
 
@@ -62,7 +62,7 @@ Se utiliza:
 
 
 
-**j = horas de prevenciÃ³n / horas de correcciÃ³n**
+**j = horas de prevención / horas de corrección**
 
 
 
@@ -78,7 +78,7 @@ Meta:
 
 
 
-**j â‰¥ 1.00**
+**j ≥ 1.00**
 
 
 
@@ -86,13 +86,13 @@ Meta:
 
 
 
-El plan considera las condiciones de la regiÃ³n Mixteca, incluyendo:
+El plan considera las condiciones de la región Mixteca, incluyendo:
 
 
 
 - conectividad limitada;
 
-- dispositivos mÃ³viles;
+- dispositivos móviles;
 
 - consumo de datos;
 
@@ -100,18 +100,19 @@ El plan considera las condiciones de la regiÃ³n Mixteca, incluyendo:
 
 - facilidad de uso;
 
-- validaciÃ³n del contenido cultural.
+- validación del contenido cultural.
 
 
 
-## Alcance acadÃ©mico
+## Alcance académico
 
 
 
-Los modelos y estÃ¡ndares se utilizan como referencias para adaptar prÃ¡cticas de calidad al proyecto.
+Los modelos y estándares se utilizan como referencias para adaptar prácticas de calidad al proyecto.
 
 
 
-Este repositorio no representa una certificaciÃ³n formal en CMMI, MoProSoft, ISO/IEC 25010 o WCAG.
+Este repositorio no representa una certificación formal en CMMI, MoProSoft, ISO/IEC 25010 o WCAG.
+
 
 

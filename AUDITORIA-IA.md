@@ -1,4 +1,4 @@
-﻿# AUDITORÃA DE HISTORIAS DE USUARIO MEDIANTE INTELIGENCIA ARTIFICIAL
+﻿# AUDITORÍA DE HISTORIAS DE USUARIO MEDIANTE INTELIGENCIA ARTIFICIAL
 
 
 
@@ -6,25 +6,25 @@
 
 
 
-La inteligencia artificial se utilizarÃ¡ como herramienta de apoyo para realizar una auditorÃ­a de calidad sobre las historias de usuario del proyecto.
+La inteligencia artificial se utilizará como herramienta de apoyo para realizar una auditoría de calidad sobre las historias de usuario del proyecto.
 
 
 
-La auditorÃ­a busca identificar:
+La auditoría busca identificar:
 
 
 
-- ambigÃ¼edades;
+- ambigüedades;
 
 - requisitos incompletos;
 
-- criterios de aceptaciÃ³n no verificables;
+- criterios de aceptación no verificables;
 
 - riesgos;
 
 - casos de prueba faltantes;
 
-- mÃ©tricas que puedan incorporarse;
+- métricas que puedan incorporarse;
 
 - problemas relacionados con conectividad;
 
@@ -32,7 +32,7 @@ La auditorÃ­a busca identificar:
 
 
 
-La decisiÃ³n final sobre aceptar o rechazar una recomendaciÃ³n corresponde al equipo de desarrollo.
+La decisión final sobre aceptar o rechazar una recomendación corresponde al equipo de desarrollo.
 
 
 
@@ -40,21 +40,21 @@ La decisiÃ³n final sobre aceptar o rechazar una recomendaciÃ³n corresponde a
 
 
 
-# 2. Prompt avanzado de auditorÃ­a
+# 2. Prompt avanzado de auditoría
 
 
 
-El siguiente prompt fue diseÃ±ado especÃ­ficamente para el proyecto:
+El siguiente prompt fue diseñado específicamente para el proyecto:
 
 
 
 ```text
 
-ActÃºa como auditor senior de calidad de software especializado en:
+Actúa como auditor senior de calidad de software especializado en:
 
 
 
-- ingenierÃ­a de requisitos;
+- ingeniería de requisitos;
 
 - historias de usuario;
 
@@ -88,11 +88,11 @@ Contexto del proyecto:
 
 El sistema busca preservar y transmitir la lengua y memoria cultural
 
-de una comunidad de la regiÃ³n Mixteca de Oaxaca.
+de una comunidad de la región Mixteca de Oaxaca.
 
 
 
-Los usuarios pueden utilizar telÃ©fonos mÃ³viles o computadoras con
+Los usuarios pueden utilizar teléfonos móviles o computadoras con
 
 diferentes capacidades y pueden tener conectividad limitada o
 
@@ -100,19 +100,19 @@ intermitente.
 
 
 
-Realiza una auditorÃ­a completa y responde utilizando las siguientes
+Realiza una auditoría completa y responde utilizando las siguientes
 
 secciones:
 
 
 
-1\. EvaluaciÃ³n de claridad de la historia.
+1\. Evaluación de claridad de la historia.
 
-2\. AmbigÃ¼edades detectadas.
+2\. Ambigüedades detectadas.
 
 3\. Requisitos incompletos.
 
-4\. Criterios de aceptaciÃ³n faltantes.
+4\. Criterios de aceptación faltantes.
 
 5\. Riesgos funcionales.
 
@@ -130,29 +130,29 @@ secciones:
 
 12\. Datos de prueba necesarios.
 
-13\. MÃ©tricas cuantificables.
+13\. Métricas cuantificables.
 
-14\. Actividades de prevenciÃ³n.
+14\. Actividades de prevención.
 
-15\. Posibles actividades de evaluaciÃ³n.
+15\. Posibles actividades de evaluación.
 
-16\. Posibles actividades de correcciÃ³n.
+16\. Posibles actividades de corrección.
 
-17\. RelaciÃ³n con prÃ¡cticas de CMMI.
+17\. Relación con prácticas de CMMI.
 
-18\. RelaciÃ³n con procesos de MoProSoft.
+18\. Relación con procesos de MoProSoft.
 
 19\. Recomendaciones de mejora.
 
-20\. Historia de usuario propuesta despuÃ©s de la auditorÃ­a.
+20\. Historia de usuario propuesta después de la auditoría.
 
 
 
-Los criterios de aceptaciÃ³n propuestos deben ser medibles y verificables.
+Los criterios de aceptación propuestos deben ser medibles y verificables.
 
 
 
-No inventes funcionalidades que no estÃ©n justificadas por la historia
+No inventes funcionalidades que no estén justificadas por la historia
 
 o el contexto.
 
@@ -164,7 +164,7 @@ Distingue entre:
 
 - problema encontrado;
 
-- recomendaciÃ³n;
+- recomendación;
 
 - requisito necesario;
 
@@ -176,27 +176,28 @@ Finalmente asigna un nivel de riesgo:
 
 
 
-BAJO / MEDIO / ALTO / CRÃTICO
+BAJO / MEDIO / ALTO / CRÍTICO
 
 
 
-y explica brevemente la razÃ³n.
+y explica brevemente la razón.
 
 
 
 ---
 
-# 21. Alineación con Open Hub Tec
+# 21. Alineaci�n con Open Hub Tec
 
-El plan de calidad se alinea con el enfoque de trabajo del Open Hub Tec mediante la integración de prácticas de ingeniería de software, colaboración, trazabilidad y mejora continua.
+El plan de calidad se alinea con el enfoque de trabajo del Open Hub Tec mediante la integraci�n de pr�cticas de ingenier�a de software, colaboraci�n, trazabilidad y mejora continua.
 
-| Elemento | Aplicación en el proyecto |
+| Elemento | Aplicaci�n en el proyecto |
 |---|---|
 | Trabajo colaborativo | Uso de Git y GitHub para mantener versiones y evidencias del proyecto. |
-| Gestión de requisitos | Revisión y auditoría de las historias de usuario. |
-| CMMI | Planificación, medición, aseguramiento de la calidad, verificación y validación. |
-| MoProSoft | Gestión del proyecto, desarrollo, procesos y recursos. |
-| Calidad del producto | Métricas, pruebas y criterios de aceptación. |
+| Gesti�n de requisitos | Revisi�n y auditor�a de las historias de usuario. |
+| CMMI | Planificaci�n, medici�n, aseguramiento de la calidad, verificaci�n y validaci�n. |
+| MoProSoft | Gesti�n del proyecto, desarrollo, procesos y recursos. |
+| Calidad del producto | M�tricas, pruebas y criterios de aceptaci�n. |
 | Mejora continua | Registro de resultados, correcciones y acciones preventivas. |
 
-Esta alineación se plantea como una adaptación académica de buenas prácticas al proyecto y no como una certificación formal del Open Hub Tec, CMMI o MoProSoft.
+Esta alineaci�n se plantea como una adaptaci�n acad�mica de buenas pr�cticas al proyecto y no como una certificaci�n formal del Open Hub Tec, CMMI o MoProSoft.
+
