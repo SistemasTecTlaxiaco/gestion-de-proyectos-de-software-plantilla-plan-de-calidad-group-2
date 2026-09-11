@@ -37,19 +37,12 @@ Establecer un Plan de Calidad que permita evaluar, medir, prevenir y corregir pr
 
 
 | Documento | Descripción |
-
 |---|---|
-
 | \[PLAN-CALIDAD.md](PLAN-CALIDAD.md) | Plan general de calidad |
-
 | \[METRICAS-CALIDAD.md](METRICAS-CALIDAD.md) | Métricas e indicadores |
-
 | \[COSTO-CALIDAD-HISTORIAS.md](COSTO-CALIDAD-HISTORIAS.md) | Costo de calidad por HU |
-
 | \[AUDITORIA-IA.md](AUDITORIA-IA.md) | Auditoría de historias mediante IA |
-
 | \[PRUEBAS-CALIDAD.md](PRUEBAS-CALIDAD.md) | Plan de pruebas |
-
 | \[INVESTIGACION-COMPLEMENTARIA.md](INVESTIGACION-COMPLEMENTARIA.md) | Investigación técnica complementaria |
 
 
@@ -113,6 +106,7 @@ Los modelos y estándares se utilizan como referencias para adaptar prácticas d
 
 
 Este repositorio no representa una certificación formal en CMMI, MoProSoft, ISO/IEC 25010 o WCAG.
+
 
 
 

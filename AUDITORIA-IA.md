@@ -201,3 +201,4 @@ El plan de calidad se alinea con el enfoque de trabajo del Open Hub Tec mediante
 
 Esta alineaci�n se plantea como una adaptaci�n acad�mica de buenas pr�cticas al proyecto y no como una certificaci�n formal del Open Hub Tec, CMMI o MoProSoft.
 
+

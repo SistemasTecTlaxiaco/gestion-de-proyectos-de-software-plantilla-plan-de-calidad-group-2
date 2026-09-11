@@ -23,23 +23,14 @@ Las métricas permiten transformar los objetivos de calidad en valores que pueda
 
 
 | Métrica | Fórmula | Meta |
-
 |---|---|---:|
-
 | Cumplimiento de criterios | Criterios cumplidos / criterios totales × 100 | ≥ 95 % |
-
 | Cobertura de pruebas | Casos ejecutados / casos planeados × 100 | ≥ 90 % |
-
 | Correcciones exitosas | Defectos corregidos / defectos encontrados × 100 | ≥ 95 % |
-
 | Contenido validado | Contenido validado / contenido publicado × 100 | 100 % |
-
 | Historias aceptadas | HU aceptadas / HU terminadas × 100 | ≥ 95 % |
-
 | Prevención contra corrección | Hp / Hc | ≥ 1.00 |
-
 | Pruebas de conectividad | Pruebas exitosas / pruebas realizadas × 100 | ≥ 90 % |
-
 | Accesibilidad | Criterios cumplidos / criterios evaluados × 100 | ≥ 90 % |
 
 
@@ -75,13 +66,9 @@ Donde:
 
 
 | Valor de j | Interpretación |
-
 |---:|---|
-
 | j > 1 | Mayor esfuerzo preventivo |
-
 | j = 1 | Prevención y corrección equivalentes |
-
 | j < 1 | Mayor esfuerzo correctivo |
 
 
@@ -115,19 +102,12 @@ Este valor no representa un precio comercial. Se utiliza únicamente para compar
 
 
 | Historia | Prevención | Evaluación | Corrección | j |
-
 |---|---:|---:|---:|---:|
-
 | HU-01 | 4 h | 2 h | 3 h | 1.33 |
-
 | HU-02 | 5 h | 3 h | 5 h | 1.00 |
-
 | HU-03 | 6 h | 3 h | 8 h | 0.75 |
-
 | HU-04 | 6 h | 3 h | 7 h | 0.86 |
-
 | HU-05 | 5 h | 3 h | 6 h | 0.83 |
-
 | HU-06 | 4 h | 3 h | 5 h | 0.80 |
 
 
@@ -329,21 +309,13 @@ Se considera:
 
 
 | HU | Prevención | Evaluación | Corrección | Total |
-
 |---|---:|---:|---:|---:|
-
 | HU-01 | $600 | $300 | $450 | $1,350 |
-
 | HU-02 | $750 | $450 | $750 | $1,950 |
-
 | HU-03 | $900 | $450 | $1,200 | $2,550 |
-
 | HU-04 | $900 | $450 | $1,050 | $2,400 |
-
 | HU-05 | $750 | $450 | $900 | $2,100 |
-
 | HU-06 | $600 | $450 | $750 | $1,800 |
-
 | **TOTAL** | **$4,500** | **$2,550** | **$5,100** | **$12,150** |
 
 
@@ -475,27 +447,16 @@ Cada defecto deberá registrar:
 
 
 | Campo | Descripción |
-
 |---|---|
-
 | ID | Identificador |
-
 | HU | Historia afectada |
-
 | Descripción | Problema encontrado |
-
 | Severidad | Baja, media, alta o crítica |
-
 | Prioridad | Prioridad de corrección |
-
 | Responsable | Persona asignada |
-
 | Estado | Abierto, proceso o cerrado |
-
 | Evidencia | Captura o prueba |
-
 | Corrección | Solución realizada |
-
 | Fecha | Fecha de resolución |
 
 
@@ -593,6 +554,7 @@ La medición individual por historia permite identificar las funcionalidades que
 
 
 Además, las métricas de conectividad, audio, usabilidad y validación permiten adaptar la evaluación a las condiciones del contexto de la región Mixteca.
+
 
 
 

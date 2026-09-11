@@ -463,23 +463,14 @@ Los recursos considerados son:
 
 
 | Necesidad del proyecto | CMMI                     | MoProSoft                  | Aplicación                                 |
-
 | ---------------------- | ------------------------ | -------------------------- | ------------------------------------------ |
-
 | Planificar historias   | Planificación            | Gestión de proyectos       | Definir alcance, responsable y criterios   |
-
 | Medir calidad          | Medición y análisis      | Gestión de procesos        | Registrar métricas                         |
-
 | Revisar requisitos     | Gestión de requisitos    | Desarrollo y mantenimiento | Revisar claridad y verificabilidad         |
-
 | Revisar producto       | Aseguramiento de calidad | Desarrollo y mantenimiento | Revisiones antes de aceptar                |
-
 | Realizar pruebas       | Verificación             | Desarrollo y mantenimiento | Ejecutar casos de prueba                   |
-
 | Validar con usuarios   | Validación               | Gestión de proyectos       | Comprobar utilidad                         |
-
 | Controlar cambios      | Gestión de configuración | Gestión de proyectos       | Registrar modificaciones                   |
-
 | Analizar riesgos       | Gestión de riesgos       | Gestión de proyectos       | Identificar problemas antes del desarrollo |
 
 
@@ -497,19 +488,12 @@ El análisis de calidad se realizará sobre las seis historias de usuario princi
 
 
 | ID    | Historia de usuario              | Prioridad |
-
 | ----- | -------------------------------- | --------- |
-
 | HU-01 | Consultar palabras y expresiones | Alta      |
-
 | HU-02 | Escuchar pronunciaciones         | Alta      |
-
 | HU-03 | Aportar conocimiento             | Media     |
-
 | HU-04 | Consultar memoria cultural       | Media     |
-
 | HU-05 | Validar contenido                | Alta      |
-
 | HU-06 | Escuchar pronunciaciones         | Media     |
 
 
@@ -651,21 +635,13 @@ Para calcular el costo se utiliza un valor interno de referencia de:
 
 
 | HU        | Prevención (h) | Evaluación (h) | Corrección (h) | j = Prevención/Corr. | Costo prevención | Costo evaluación | Costo corrección | Costo total |
-
 | --------- | -------------: | -------------: | -------------: | -------------------: | ---------------: | ---------------: | ---------------: | ----------: |
-
 | HU-01     |              4 |              2 |              3 |                 1.33 |             $600 |             $300 |             $450 |      $1,350 |
-
 | HU-02     |              5 |              3 |              5 |                 1.00 |             $750 |             $450 |             $750 |      $1,950 |
-
 | HU-03     |              6 |              3 |              8 |                 0.75 |             $900 |             $450 |           $1,200 |      $2,550 |
-
 | HU-04     |              6 |              3 |              7 |                 0.86 |             $900 |             $450 |           $1,050 |      $2,400 |
-
 | HU-05     |              5 |              3 |              6 |                 0.83 |             $750 |             $450 |             $900 |      $2,100 |
-
 | HU-06     |              4 |              3 |              5 |                 0.80 |             $600 |             $450 |             $750 |      $1,800 |
-
 | **Total** |         **30** |         **17** |         **34** |             **0.88** |       **$4,500** |       **$2,550** |       **$5,100** | **$12,150** |
 
 
@@ -1203,18 +1179,13 @@ La información comunitaria debe tener mecanismos de revisión para evitar modif
 
 
 | Métrica                   | Fórmula                                          | Meta   |
-
 | ------------------------- | ------------------------------------------------ | ------ |
-
 | Cumplimiento de criterios | criterios cumplidos / criterios totales × 100    | ≥ 95 % |
-
 | Cobertura de pruebas      | casos ejecutados / casos planeados × 100         | ≥ 90 % |
-
 | Correcciones              | defectos corregidos / defectos encontrados × 100 | ≥ 95 % |
-
 | Contenido validado        | contenido validado / contenido publicado × 100   | 100 %  |
-
 | Historias aceptadas       | HU aceptadas / HU terminadas × 100               | ≥      |
+
 
 
 

@@ -297,15 +297,10 @@ Se revisarán:
 
 
 | Referencia | Principal aportación | Aplicación |
-
 |---|---|---|
-
 | CMMI | Gestión y mejora de procesos | Planificación, medición y calidad |
-
 | MoProSoft | Procesos de software en contexto mexicano | Gestión y desarrollo |
-
 | ISO/IEC 25010 | Calidad del producto | Métricas y evaluación |
-
 | WCAG 2.2 | Accesibilidad | Diseño y pruebas |
 
 
@@ -605,6 +600,7 @@ ni WCAG.
 La aplicación documentada corresponde a una actividad académica de
 
 adaptación de prácticas de calidad.
+
 
 
 

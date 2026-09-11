@@ -57,37 +57,21 @@ Las pruebas se realizarán en diferentes niveles:
 
 
 | ID | Historia | Prueba | Resultado esperado |
-
 |---|---|---|---|
-
 | PF-01 | HU-01 | Buscar palabra existente | Se muestran los resultados correctos |
-
 | PF-02 | HU-01 | Buscar palabra inexistente | Se informa que no existen resultados |
-
 | PF-03 | HU-01 | Búsqueda vacía | El sistema solicita una entrada válida |
-
 | PF-04 | HU-02 | Reproducir pronunciación | El audio comienza correctamente |
-
 | PF-05 | HU-02 | Pausar pronunciación | El audio se detiene |
-
 | PF-06 | HU-02 | Reanudar audio | El audio continúa |
-
 | PF-07 | HU-03 | Enviar aportación válida | La aportación queda registrada |
-
 | PF-08 | HU-03 | Enviar datos incompletos | El sistema solicita completar los campos |
-
 | PF-09 | HU-04 | Consultar memoria cultural | Se muestra el contenido solicitado |
-
 | PF-10 | HU-04 | Navegar entre contenidos | La navegación funciona correctamente |
-
 | PF-11 | HU-05 | Aprobar contenido | El contenido cambia a estado aprobado |
-
 | PF-12 | HU-05 | Rechazar contenido | El contenido cambia a estado rechazado |
-
 | PF-13 | HU-05 | Usuario sin permisos | El sistema impide la acción |
-
 | PF-14 | HU-06 | Reproducir pronunciación | El audio funciona correctamente |
-
 | PF-15 | HU-06 | Pausar pronunciación | El audio se detiene correctamente |
 
 
@@ -107,17 +91,11 @@ condiciones de red.
 
 
 | Prueba | Condición | Resultado esperado |
-
 |---|---|---|
-
 | PC-01 | Conexión estable | Sistema funcional |
-
 | PC-02 | Conexión lenta | Contenido principal disponible |
-
 | PC-03 | Conexión intermitente | El sistema maneja la interrupción |
-
 | PC-04 | Recuperación de conexión | La operación puede continuar |
-
 | PC-05 | Audio con conexión lenta | El audio carga sin errores críticos |
 
 
@@ -421,27 +399,16 @@ Cada prueba deberá documentarse con:
 
 
 | Campo | Descripción |
-
 |---|---|
-
 | ID | Identificador |
-
 | HU | Historia relacionada |
-
 | Fecha | Fecha de ejecución |
-
 | Responsable | Persona que realiza la prueba |
-
 | Condición | Ambiente de prueba |
-
 | Resultado esperado | Resultado definido |
-
 | Resultado obtenido | Resultado real |
-
 | Estado | Aprobada / Fallida |
-
 | Evidencia | Captura o registro |
-
 | Observaciones | Comentarios |
 
 
@@ -605,6 +572,7 @@ Esto permite adaptar el proceso de calidad a las condiciones del contexto
 Mixteca y reducir la posibilidad de detectar errores únicamente después de
 
 haber terminado el desarrollo.
+
 
 
 
