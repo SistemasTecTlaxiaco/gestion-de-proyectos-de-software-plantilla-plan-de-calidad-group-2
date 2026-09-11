@@ -183,3 +183,20 @@ BAJO / MEDIO / ALTO / CRÃTICO
 y explica brevemente la razÃ³n.
 
 
+
+---
+
+# 21. Alineación con Open Hub Tec
+
+El plan de calidad se alinea con el enfoque de trabajo del Open Hub Tec mediante la integración de prácticas de ingeniería de software, colaboración, trazabilidad y mejora continua.
+
+| Elemento | Aplicación en el proyecto |
+|---|---|
+| Trabajo colaborativo | Uso de Git y GitHub para mantener versiones y evidencias del proyecto. |
+| Gestión de requisitos | Revisión y auditoría de las historias de usuario. |
+| CMMI | Planificación, medición, aseguramiento de la calidad, verificación y validación. |
+| MoProSoft | Gestión del proyecto, desarrollo, procesos y recursos. |
+| Calidad del producto | Métricas, pruebas y criterios de aceptación. |
+| Mejora continua | Registro de resultados, correcciones y acciones preventivas. |
+
+Esta alineación se plantea como una adaptación académica de buenas prácticas al proyecto y no como una certificación formal del Open Hub Tec, CMMI o MoProSoft.
