@@ -1,54 +1,54 @@
-\# MÉTRICAS DE CALIDAD
+﻿# MÃ‰TRICAS DE CALIDAD
 
 
 
-\## 1. Propósito
+## 1. PropÃ³sito
 
 
 
-Este documento complementa el Plan de Calidad mediante métricas cuantificables para evaluar el desempeño y la calidad de las historias de usuario del proyecto.
+Este documento complementa el Plan de Calidad mediante mÃ©tricas cuantificables para evaluar el desempeÃ±o y la calidad de las historias de usuario del proyecto.
 
 
 
-Las métricas permiten transformar los objetivos de calidad en valores que puedan medirse y compararse durante las iteraciones.
+Las mÃ©tricas permiten transformar los objetivos de calidad en valores que puedan medirse y compararse durante las iteraciones.
 
 
 
-\---
+---
 
 
 
-\# 2. Métricas generales
+# 2. MÃ©tricas generales
 
 
 
-| Métrica | Fórmula | Meta |
+| MÃ©trica | FÃ³rmula | Meta |
 
 |---|---|---:|
 
-| Cumplimiento de criterios | Criterios cumplidos / criterios totales × 100 | ≥ 95 % |
+| Cumplimiento de criterios | Criterios cumplidos / criterios totales Ã— 100 | â‰¥ 95 % |
 
-| Cobertura de pruebas | Casos ejecutados / casos planeados × 100 | ≥ 90 % |
+| Cobertura de pruebas | Casos ejecutados / casos planeados Ã— 100 | â‰¥ 90 % |
 
-| Correcciones exitosas | Defectos corregidos / defectos encontrados × 100 | ≥ 95 % |
+| Correcciones exitosas | Defectos corregidos / defectos encontrados Ã— 100 | â‰¥ 95 % |
 
-| Contenido validado | Contenido validado / contenido publicado × 100 | 100 % |
+| Contenido validado | Contenido validado / contenido publicado Ã— 100 | 100 % |
 
-| Historias aceptadas | HU aceptadas / HU terminadas × 100 | ≥ 95 % |
+| Historias aceptadas | HU aceptadas / HU terminadas Ã— 100 | â‰¥ 95 % |
 
-| Prevención contra corrección | Hp / Hc | ≥ 1.00 |
+| PrevenciÃ³n contra correcciÃ³n | Hp / Hc | â‰¥ 1.00 |
 
-| Pruebas de conectividad | Pruebas exitosas / pruebas realizadas × 100 | ≥ 90 % |
+| Pruebas de conectividad | Pruebas exitosas / pruebas realizadas Ã— 100 | â‰¥ 90 % |
 
-| Accesibilidad | Criterios cumplidos / criterios evaluados × 100 | ≥ 90 % |
-
-
-
-\---
+| Accesibilidad | Criterios cumplidos / criterios evaluados Ã— 100 | â‰¥ 90 % |
 
 
 
-\# 3. Indicador j
+---
+
+
+
+# 3. Indicador j
 
 
 
@@ -56,7 +56,7 @@ El indicador utilizado para comparar el esfuerzo preventivo y correctivo es:
 
 
 
-\*\*j = Horas de prevención / Horas de corrección\*\*
+**j = Horas de prevenciÃ³n / Horas de correcciÃ³n**
 
 
 
@@ -64,23 +64,23 @@ Donde:
 
 
 
-\- \*\*Hp:\*\* horas utilizadas para prevenir errores.
+- **Hp:** horas utilizadas para prevenir errores.
 
-\- \*\*Hc:\*\* horas utilizadas para corregir errores.
-
-
-
-\## Interpretación
+- **Hc:** horas utilizadas para corregir errores.
 
 
 
-| Valor de j | Interpretación |
+## InterpretaciÃ³n
+
+
+
+| Valor de j | InterpretaciÃ³n |
 
 |---:|---|
 
 | j > 1 | Mayor esfuerzo preventivo |
 
-| j = 1 | Prevención y corrección equivalentes |
+| j = 1 | PrevenciÃ³n y correcciÃ³n equivalentes |
 
 | j < 1 | Mayor esfuerzo correctivo |
 
@@ -90,31 +90,31 @@ El objetivo del proyecto es alcanzar progresivamente:
 
 
 
-\*\*j ≥ 1.00\*\*
+**j â‰¥ 1.00**
 
 
 
-\---
+---
 
 
 
-\# 4. Estimación por historia de usuario
+# 4. EstimaciÃ³n por historia de usuario
 
 
 
-Para las estimaciones se utiliza un valor académico de referencia de:
+Para las estimaciones se utiliza un valor acadÃ©mico de referencia de:
 
 
 
-\*\*$150 MXN por hora\*\*
+**$150 MXN por hora**
 
 
 
-Este valor no representa un precio comercial. Se utiliza únicamente para comparar el esfuerzo económico de las actividades de calidad.
+Este valor no representa un precio comercial. Se utiliza Ãºnicamente para comparar el esfuerzo econÃ³mico de las actividades de calidad.
 
 
 
-| Historia | Prevención | Evaluación | Corrección | j |
+| Historia | PrevenciÃ³n | EvaluaciÃ³n | CorrecciÃ³n | j |
 
 |---|---:|---:|---:|---:|
 
@@ -132,63 +132,63 @@ Este valor no representa un precio comercial. Se utiliza únicamente para compar
 
 
 
-\---
+---
 
 
 
-\# 5. Cálculos
+# 5. CÃ¡lculos
 
 
 
-\## HU-01
+## HU-01
 
 
 
-\*\*j = 4 / 3\*\*
+**j = 4 / 3**
 
 
 
-\*\*j = 1.33\*\*
+**j = 1.33**
 
 
 
-La prevención es superior a la corrección estimada.
+La prevenciÃ³n es superior a la correcciÃ³n estimada.
 
 
 
-\---
+---
 
 
 
-\## HU-02
+## HU-02
 
 
 
-\*\*j = 5 / 5\*\*
+**j = 5 / 5**
 
 
 
-\*\*j = 1.00\*\*
+**j = 1.00**
 
 
 
-Existe equilibrio entre prevención y corrección.
+Existe equilibrio entre prevenciÃ³n y correcciÃ³n.
 
 
 
-\---
+---
 
 
 
-\## HU-03
+## HU-03
 
 
 
-\*\*j = 6 / 8\*\*
+**j = 6 / 8**
 
 
 
-\*\*j = 0.75\*\*
+**j = 0.75**
 
 
 
@@ -196,59 +196,59 @@ Existe mayor esfuerzo correctivo que preventivo.
 
 
 
-\---
+---
 
 
 
-\## HU-04
+## HU-04
 
 
 
-\*\*j = 6 / 7\*\*
+**j = 6 / 7**
 
 
 
-\*\*j = 0.86\*\*
+**j = 0.86**
 
 
 
-La prevención todavía es menor que la corrección.
+La prevenciÃ³n todavÃ­a es menor que la correcciÃ³n.
 
 
 
-\---
+---
 
 
 
-\## HU-05
+## HU-05
 
 
 
-\*\*j = 5 / 6\*\*
+**j = 5 / 6**
 
 
 
-\*\*j = 0.83\*\*
+**j = 0.83**
 
 
 
-Existe oportunidad para aumentar la prevención.
+Existe oportunidad para aumentar la prevenciÃ³n.
 
 
 
-\---
+---
 
 
 
-\## HU-06
+## HU-06
 
 
 
-\*\*j = 4 / 5\*\*
+**j = 4 / 5**
 
 
 
-\*\*j = 0.80\*\*
+**j = 0.80**
 
 
 
@@ -256,11 +256,11 @@ Se requiere incrementar las actividades preventivas.
 
 
 
-\---
+---
 
 
 
-\# 6. Indicador global
+# 6. Indicador global
 
 
 
@@ -268,11 +268,11 @@ Las horas estimadas son:
 
 
 
-\*\*Prevención = 30 horas\*\*
+**PrevenciÃ³n = 30 horas**
 
 
 
-\*\*Corrección = 34 horas\*\*
+**CorrecciÃ³n = 34 horas**
 
 
 
@@ -280,31 +280,31 @@ Por lo tanto:
 
 
 
-\*\*j global = 30 / 34\*\*
+**j global = 30 / 34**
 
 
 
-\*\*j global = 0.88\*\*
+**j global = 0.88**
 
 
 
-\## Interpretación
+## InterpretaciÃ³n
 
 
 
-El resultado \*\*0.88\*\* indica que actualmente se estima un mayor esfuerzo de corrección que de prevención.
+El resultado **0.88** indica que actualmente se estima un mayor esfuerzo de correcciÃ³n que de prevenciÃ³n.
 
 
 
-Por esta razón, una de las metas de las siguientes iteraciones será incrementar las actividades preventivas.
+Por esta razÃ³n, una de las metas de las siguientes iteraciones serÃ¡ incrementar las actividades preventivas.
 
 
 
-\---
+---
 
 
 
-\# 7. Costo de calidad
+# 7. Costo de calidad
 
 
 
@@ -312,23 +312,23 @@ Se considera:
 
 
 
-\*\*Costo de prevención = Horas de prevención × $150\*\*
+**Costo de prevenciÃ³n = Horas de prevenciÃ³n Ã— $150**
 
 
 
-\*\*Costo de evaluación = Horas de evaluación × $150\*\*
+**Costo de evaluaciÃ³n = Horas de evaluaciÃ³n Ã— $150**
 
 
 
-\*\*Costo de corrección = Horas de corrección × $150\*\*
+**Costo de correcciÃ³n = Horas de correcciÃ³n Ã— $150**
 
 
 
-\*\*Costo total de calidad = Prevención + Evaluación + Corrección\*\*
+**Costo total de calidad = PrevenciÃ³n + EvaluaciÃ³n + CorrecciÃ³n**
 
 
 
-| HU | Prevención | Evaluación | Corrección | Total |
+| HU | PrevenciÃ³n | EvaluaciÃ³n | CorrecciÃ³n | Total |
 
 |---|---:|---:|---:|---:|
 
@@ -344,15 +344,15 @@ Se considera:
 
 | HU-06 | $600 | $450 | $750 | $1,800 |
 
-| \*\*TOTAL\*\* | \*\*$4,500\*\* | \*\*$2,550\*\* | \*\*$5,100\*\* | \*\*$12,150\*\* |
+| **TOTAL** | **$4,500** | **$2,550** | **$5,100** | **$12,150** |
 
 
 
-\---
+---
 
 
 
-\# 8. Historias que requieren mayor prevención
+# 8. Historias que requieren mayor prevenciÃ³n
 
 
 
@@ -360,17 +360,17 @@ Las historias con menor indicador j son:
 
 
 
-1\. \*\*HU-03 = 0.75\*\*
+1\. **HU-03 = 0.75**
 
-2\. \*\*HU-06 = 0.80\*\*
+2\. **HU-06 = 0.80**
 
-3\. \*\*HU-05 = 0.83\*\*
+3\. **HU-05 = 0.83**
 
-4\. \*\*HU-04 = 0.86\*\*
+4\. **HU-04 = 0.86**
 
 
 
-Estas historias deberán recibir mayor atención preventiva.
+Estas historias deberÃ¡n recibir mayor atenciÃ³n preventiva.
 
 
 
@@ -378,39 +378,39 @@ Las acciones recomendadas son:
 
 
 
-\- revisión anticipada de requisitos;
+- revisiÃ³n anticipada de requisitos;
 
-\- revisión mediante IA;
+- revisiÃ³n mediante IA;
 
-\- diseño de casos de prueba antes del desarrollo;
+- diseÃ±o de casos de prueba antes del desarrollo;
 
-\- validación de criterios de aceptación;
+- validaciÃ³n de criterios de aceptaciÃ³n;
 
-\- pruebas tempranas;
+- pruebas tempranas;
 
-\- revisión de conectividad;
+- revisiÃ³n de conectividad;
 
-\- revisión de contenido.
-
-
-
-\---
+- revisiÃ³n de contenido.
 
 
 
-\# 9. Métricas relacionadas con la Mixteca
+---
 
 
 
-La calidad será evaluada considerando las condiciones tecnológicas del contexto.
+# 9. MÃ©tricas relacionadas con la Mixteca
 
 
 
-\## Conectividad
+La calidad serÃ¡ evaluada considerando las condiciones tecnolÃ³gicas del contexto.
 
 
 
-\*\*Tasa de éxito con conexión limitada = pruebas exitosas / pruebas realizadas × 100\*\*
+## Conectividad
+
+
+
+**Tasa de Ã©xito con conexiÃ³n limitada = pruebas exitosas / pruebas realizadas Ã— 100**
 
 
 
@@ -418,63 +418,63 @@ Meta:
 
 
 
-\*\*≥ 90 %\*\*
+**â‰¥ 90 %**
 
 
 
-\## Audio
+## Audio
 
 
 
-Se registrará:
+Se registrarÃ¡:
 
 
 
-\- tamaño del archivo;
+- tamaÃ±o del archivo;
 
-\- formato;
+- formato;
 
-\- tiempo de carga;
+- tiempo de carga;
 
-\- tiempo de reproducción;
+- tiempo de reproducciÃ³n;
 
-\- comportamiento ante interrupción de conexión.
-
-
-
-\## Dispositivos
+- comportamiento ante interrupciÃ³n de conexiÃ³n.
 
 
 
-Se deberán realizar pruebas en diferentes dispositivos móviles y computadoras cuando estén disponibles.
+## Dispositivos
 
 
 
-\## Usabilidad
+Se deberÃ¡n realizar pruebas en diferentes dispositivos mÃ³viles y computadoras cuando estÃ©n disponibles.
 
 
 
-Se medirá el porcentaje de usuarios que logran completar una tarea sin asistencia.
+## Usabilidad
 
 
 
-\*\*Meta: ≥ 90 %\*\*
+Se medirÃ¡ el porcentaje de usuarios que logran completar una tarea sin asistencia.
 
 
 
-\---
+**Meta: â‰¥ 90 %**
 
 
 
-\# 10. Registro de defectos
+---
 
 
 
-Cada defecto deberá registrar:
+# 10. Registro de defectos
 
 
 
-| Campo | Descripción |
+Cada defecto deberÃ¡ registrar:
+
+
+
+| Campo | DescripciÃ³n |
 
 |---|---|
 
@@ -482,11 +482,11 @@ Cada defecto deberá registrar:
 
 | HU | Historia afectada |
 
-| Descripción | Problema encontrado |
+| DescripciÃ³n | Problema encontrado |
 
-| Severidad | Baja, media, alta o crítica |
+| Severidad | Baja, media, alta o crÃ­tica |
 
-| Prioridad | Prioridad de corrección |
+| Prioridad | Prioridad de correcciÃ³n |
 
 | Responsable | Persona asignada |
 
@@ -494,41 +494,41 @@ Cada defecto deberá registrar:
 
 | Evidencia | Captura o prueba |
 
-| Corrección | Solución realizada |
+| CorrecciÃ³n | SoluciÃ³n realizada |
 
-| Fecha | Fecha de resolución |
-
-
-
-\---
+| Fecha | Fecha de resoluciÃ³n |
 
 
 
-\# 11. Frecuencia de medición
+---
 
 
 
-Las métricas serán revisadas:
+# 11. Frecuencia de mediciÃ³n
 
 
 
-\- al terminar una historia;
-
-\- después de las pruebas;
-
-\- después de una corrección importante;
-
-\- al finalizar una iteración;
-
-\- antes de considerar terminado el producto.
+Las mÃ©tricas serÃ¡n revisadas:
 
 
 
-\---
+- al terminar una historia;
+
+- despuÃ©s de las pruebas;
+
+- despuÃ©s de una correcciÃ³n importante;
+
+- al finalizar una iteraciÃ³n;
+
+- antes de considerar terminado el producto.
 
 
 
-\# 12. Criterio de mejora
+---
+
+
+
+# 12. Criterio de mejora
 
 
 
@@ -536,11 +536,11 @@ Si una historia presenta:
 
 
 
-\*\*j < 1.00\*\*
+**j < 1.00**
 
 
 
-se deberá analizar la causa del exceso de corrección.
+se deberÃ¡ analizar la causa del exceso de correcciÃ³n.
 
 
 
@@ -548,19 +548,19 @@ Las posibles acciones son:
 
 
 
-\- aumentar revisión de requisitos;
+- aumentar revisiÃ³n de requisitos;
 
-\- agregar pruebas;
+- agregar pruebas;
 
-\- mejorar criterios de aceptación;
+- mejorar criterios de aceptaciÃ³n;
 
-\- revisar diseño;
+- revisar diseÃ±o;
 
-\- realizar auditoría mediante IA;
+- realizar auditorÃ­a mediante IA;
 
-\- probar antes de integrar;
+- probar antes de integrar;
 
-\- documentar errores recurrentes.
+- documentar errores recurrentes.
 
 
 
@@ -568,15 +568,15 @@ El objetivo es que las siguientes iteraciones requieran menos correcciones.
 
 
 
-\---
+---
 
 
 
-\# 13. Conclusión
+# 13. ConclusiÃ³n
 
 
 
-Las métricas permiten evaluar objetivamente la calidad del proyecto.
+Las mÃ©tricas permiten evaluar objetivamente la calidad del proyecto.
 
 
 
@@ -584,13 +584,14 @@ El indicador j proporciona una medida sencilla para comparar el esfuerzo destina
 
 
 
-El resultado global inicial de \*\*0.88\*\* muestra que se debe fortalecer la prevención.
+El resultado global inicial de **0.88** muestra que se debe fortalecer la prevenciÃ³n.
 
 
 
-La medición individual por historia permite identificar las funcionalidades que requieren mayor atención y relacionar directamente el esfuerzo de calidad con el backlog.
+La mediciÃ³n individual por historia permite identificar las funcionalidades que requieren mayor atenciÃ³n y relacionar directamente el esfuerzo de calidad con el backlog.
 
 
 
-Además, las métricas de conectividad, audio, usabilidad y validación permiten adaptar la evaluación a las condiciones del contexto de la región Mixteca.
+AdemÃ¡s, las mÃ©tricas de conectividad, audio, usabilidad y validaciÃ³n permiten adaptar la evaluaciÃ³n a las condiciones del contexto de la regiÃ³n Mixteca.
+
 

@@ -1,90 +1,68 @@
-\# COSTO DE CALIDAD POR HISTORIA DE USUARIO
+﻿# COSTO DE CALIDAD POR HISTORIA DE USUARIO
 
 
 
-\## 1. Objetivo
+## 1. Objetivo
 
 
 
-Este documento presenta el análisis detallado del costo de calidad para cada historia de usuario del proyecto.
+Este documento presenta el anÃ¡lisis detallado del costo de calidad para cada historia de usuario del proyecto.
 
 
 
-El análisis distingue tres tipos de actividades:
+El anÃ¡lisis distingue tres tipos de actividades:
 
 
 
-\- Prevención.
+- PrevenciÃ³n.
 
-\- Evaluación.
+- EvaluaciÃ³n.
 
-\- Corrección.
-
-
-
-También se calcula el indicador:
+- CorrecciÃ³n.
 
 
 
-\*\*j = Horas de prevención / Horas de corrección\*\*
+TambiÃ©n se calcula el indicador:
 
 
 
-El propósito es identificar qué historias requieren mayor inversión preventiva.
+**j = Horas de prevenciÃ³n / Horas de correcciÃ³n**
 
 
 
-\---
+El propÃ³sito es identificar quÃ© historias requieren mayor inversiÃ³n preventiva.
 
 
 
-\# 2. Valor de referencia
+---
 
 
 
-Para realizar una comparación económica se utiliza un valor interno académico de:
+# 2. Valor de referencia
 
 
 
-\*\*$150 MXN por hora\*\*
+Para realizar una comparaciÃ³n econÃ³mica se utiliza un valor interno acadÃ©mico de:
 
 
 
-Este valor es únicamente una referencia para estimar el esfuerzo del equipo. No representa una tarifa comercial ni un presupuesto real.
+**$150 MXN por hora**
 
 
 
-\---
+Este valor es Ãºnicamente una referencia para estimar el esfuerzo del equipo. No representa una tarifa comercial ni un presupuesto real.
 
 
 
-\# 3. HU-01 — Consultar palabras y expresiones
+---
 
 
 
-\## Prevención
+# 3. HU-01 â€” Consultar palabras y expresiones
 
 
 
-Actividades:
-
-
-
-\- revisar los requisitos;
-
-\- definir comportamiento de búsqueda;
-
-\- establecer criterios de aceptación;
-
-\- preparar casos de prueba.
-
-
-
-\*\*Horas de prevención: 4\*\*
-
-
-
-\## Evaluación
+## PrevenciÃ³n
 
 
 
@@ -92,19 +70,41 @@ Actividades:
 
 
 
-\- búsqueda de palabras existentes;
+- revisar los requisitos;
 
-\- búsqueda de palabras inexistentes;
+- definir comportamiento de bÃºsqueda;
 
-\- prueba de diferentes entradas.
+- establecer criterios de aceptaciÃ³n;
 
-
-
-\*\*Horas de evaluación: 2\*\*
+- preparar casos de prueba.
 
 
 
-\## Corrección
+**Horas de prevenciÃ³n: 4**
+
+
+
+## EvaluaciÃ³n
+
+
+
+Actividades:
+
+
+
+- bÃºsqueda de palabras existentes;
+
+- bÃºsqueda de palabras inexistentes;
+
+- prueba de diferentes entradas.
+
+
+
+**Horas de evaluaciÃ³n: 2**
+
+
+
+## CorrecciÃ³n
 
 
 
@@ -112,27 +112,28 @@ Posibles actividades:
 
 
 
-\- corregir resultados de búsqueda;
+- corregir resultados de bÃºsqueda;
 
-\- corregir validaciones;
+- corregir validaciones;
 
-\- ajustar presentación de resultados.
-
-
-
-\*\*Horas de corrección: 3\*\*
+- ajustar presentaciÃ³n de resultados.
 
 
 
-\## Indicador j
+**Horas de correcciÃ³n: 3**
+
+
+
+## Indicador j
 
 
 
 ```text
 
-j = Prevención / Corrección
+j = PrevenciÃ³n / CorrecciÃ³n
 
 j = 4 / 3
 
 j = 1.33
+
 

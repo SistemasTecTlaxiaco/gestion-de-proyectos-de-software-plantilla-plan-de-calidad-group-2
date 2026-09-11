@@ -1,76 +1,76 @@
-\# AUDITORÍA DE HISTORIAS DE USUARIO MEDIANTE INTELIGENCIA ARTIFICIAL
+﻿# AUDITORÃA DE HISTORIAS DE USUARIO MEDIANTE INTELIGENCIA ARTIFICIAL
 
 
 
-\## 1. Objetivo
+## 1. Objetivo
 
 
 
-La inteligencia artificial se utilizará como herramienta de apoyo para realizar una auditoría de calidad sobre las historias de usuario del proyecto.
+La inteligencia artificial se utilizarÃ¡ como herramienta de apoyo para realizar una auditorÃ­a de calidad sobre las historias de usuario del proyecto.
 
 
 
-La auditoría busca identificar:
+La auditorÃ­a busca identificar:
 
 
 
-\- ambigüedades;
+- ambigÃ¼edades;
 
-\- requisitos incompletos;
+- requisitos incompletos;
 
-\- criterios de aceptación no verificables;
+- criterios de aceptaciÃ³n no verificables;
 
-\- riesgos;
+- riesgos;
 
-\- casos de prueba faltantes;
+- casos de prueba faltantes;
 
-\- métricas que puedan incorporarse;
+- mÃ©tricas que puedan incorporarse;
 
-\- problemas relacionados con conectividad;
+- problemas relacionados con conectividad;
 
-\- problemas de usabilidad y accesibilidad.
-
-
-
-La decisión final sobre aceptar o rechazar una recomendación corresponde al equipo de desarrollo.
+- problemas de usabilidad y accesibilidad.
 
 
 
-\---
+La decisiÃ³n final sobre aceptar o rechazar una recomendaciÃ³n corresponde al equipo de desarrollo.
 
 
 
-\# 2. Prompt avanzado de auditoría
+---
 
 
 
-El siguiente prompt fue diseñado específicamente para el proyecto:
+# 2. Prompt avanzado de auditorÃ­a
+
+
+
+El siguiente prompt fue diseÃ±ado especÃ­ficamente para el proyecto:
 
 
 
 ```text
 
-Actúa como auditor senior de calidad de software especializado en:
+ActÃºa como auditor senior de calidad de software especializado en:
 
 
 
-\- ingeniería de requisitos;
+- ingenierÃ­a de requisitos;
 
-\- historias de usuario;
+- historias de usuario;
 
-\- CMMI;
+- CMMI;
 
-\- MoProSoft;
+- MoProSoft;
 
-\- pruebas de software;
+- pruebas de software;
 
-\- calidad de software;
+- calidad de software;
 
-\- accesibilidad;
+- accesibilidad;
 
-\- sistemas comunitarios;
+- sistemas comunitarios;
 
-\- aplicaciones con conectividad limitada.
+- aplicaciones con conectividad limitada.
 
 
 
@@ -88,11 +88,11 @@ Contexto del proyecto:
 
 El sistema busca preservar y transmitir la lengua y memoria cultural
 
-de una comunidad de la región Mixteca de Oaxaca.
+de una comunidad de la regiÃ³n Mixteca de Oaxaca.
 
 
 
-Los usuarios pueden utilizar teléfonos móviles o computadoras con
+Los usuarios pueden utilizar telÃ©fonos mÃ³viles o computadoras con
 
 diferentes capacidades y pueden tener conectividad limitada o
 
@@ -100,19 +100,19 @@ intermitente.
 
 
 
-Realiza una auditoría completa y responde utilizando las siguientes
+Realiza una auditorÃ­a completa y responde utilizando las siguientes
 
 secciones:
 
 
 
-1\. Evaluación de claridad de la historia.
+1\. EvaluaciÃ³n de claridad de la historia.
 
-2\. Ambigüedades detectadas.
+2\. AmbigÃ¼edades detectadas.
 
 3\. Requisitos incompletos.
 
-4\. Criterios de aceptación faltantes.
+4\. Criterios de aceptaciÃ³n faltantes.
 
 5\. Riesgos funcionales.
 
@@ -130,29 +130,29 @@ secciones:
 
 12\. Datos de prueba necesarios.
 
-13\. Métricas cuantificables.
+13\. MÃ©tricas cuantificables.
 
-14\. Actividades de prevención.
+14\. Actividades de prevenciÃ³n.
 
-15\. Posibles actividades de evaluación.
+15\. Posibles actividades de evaluaciÃ³n.
 
-16\. Posibles actividades de corrección.
+16\. Posibles actividades de correcciÃ³n.
 
-17\. Relación con prácticas de CMMI.
+17\. RelaciÃ³n con prÃ¡cticas de CMMI.
 
-18\. Relación con procesos de MoProSoft.
+18\. RelaciÃ³n con procesos de MoProSoft.
 
 19\. Recomendaciones de mejora.
 
-20\. Historia de usuario propuesta después de la auditoría.
+20\. Historia de usuario propuesta despuÃ©s de la auditorÃ­a.
 
 
 
-Los criterios de aceptación propuestos deben ser medibles y verificables.
+Los criterios de aceptaciÃ³n propuestos deben ser medibles y verificables.
 
 
 
-No inventes funcionalidades que no estén justificadas por la historia
+No inventes funcionalidades que no estÃ©n justificadas por la historia
 
 o el contexto.
 
@@ -162,13 +162,13 @@ Distingue entre:
 
 
 
-\- problema encontrado;
+- problema encontrado;
 
-\- recomendación;
+- recomendaciÃ³n;
 
-\- requisito necesario;
+- requisito necesario;
 
-\- supuesto.
+- supuesto.
 
 
 
@@ -176,9 +176,10 @@ Finalmente asigna un nivel de riesgo:
 
 
 
-BAJO / MEDIO / ALTO / CRÍTICO
+BAJO / MEDIO / ALTO / CRÃTICO
 
 
 
-y explica brevemente la razón.
+y explica brevemente la razÃ³n.
+
 

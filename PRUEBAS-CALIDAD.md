@@ -1,38 +1,38 @@
-\# PRUEBAS DE CALIDAD DEL PROYECTO
+﻿# PRUEBAS DE CALIDAD DEL PROYECTO
 
 
 
-\## 1. Objetivo
+## 1. Objetivo
 
 
 
 Definir las pruebas necesarias para verificar que las historias de usuario
 
-cumplan sus requisitos y criterios de aceptación.
+cumplan sus requisitos y criterios de aceptaciÃ³n.
 
 
 
 Las pruebas consideran tanto el funcionamiento del sistema como las
 
-condiciones particulares del contexto de la región Mixteca.
+condiciones particulares del contexto de la regiÃ³n Mixteca.
 
 
 
-\---
+---
 
 
 
-\# 2. Estrategia de pruebas
+# 2. Estrategia de pruebas
 
 
 
-Las pruebas se realizarán en diferentes niveles:
+Las pruebas se realizarÃ¡n en diferentes niveles:
 
 
 
 1\. Pruebas funcionales.
 
-2\. Pruebas de integración.
+2\. Pruebas de integraciÃ³n.
 
 3\. Pruebas de usabilidad.
 
@@ -44,15 +44,15 @@ Las pruebas se realizarán en diferentes niveles:
 
 7\. Pruebas de contenido.
 
-8\. Pruebas de regresión.
+8\. Pruebas de regresiÃ³n.
 
 
 
-\---
+---
 
 
 
-\# 3. Pruebas funcionales por historia
+# 3. Pruebas funcionales por historia
 
 
 
@@ -64,327 +64,327 @@ Las pruebas se realizarán en diferentes niveles:
 
 | PF-02 | HU-01 | Buscar palabra inexistente | Se informa que no existen resultados |
 
-| PF-03 | HU-01 | Búsqueda vacía | El sistema solicita una entrada válida |
+| PF-03 | HU-01 | BÃºsqueda vacÃ­a | El sistema solicita una entrada vÃ¡lida |
 
-| PF-04 | HU-02 | Reproducir pronunciación | El audio comienza correctamente |
+| PF-04 | HU-02 | Reproducir pronunciaciÃ³n | El audio comienza correctamente |
 
-| PF-05 | HU-02 | Pausar pronunciación | El audio se detiene |
+| PF-05 | HU-02 | Pausar pronunciaciÃ³n | El audio se detiene |
 
-| PF-06 | HU-02 | Reanudar audio | El audio continúa |
+| PF-06 | HU-02 | Reanudar audio | El audio continÃºa |
 
-| PF-07 | HU-03 | Enviar aportación válida | La aportación queda registrada |
+| PF-07 | HU-03 | Enviar aportaciÃ³n vÃ¡lida | La aportaciÃ³n queda registrada |
 
 | PF-08 | HU-03 | Enviar datos incompletos | El sistema solicita completar los campos |
 
 | PF-09 | HU-04 | Consultar memoria cultural | Se muestra el contenido solicitado |
 
-| PF-10 | HU-04 | Navegar entre contenidos | La navegación funciona correctamente |
+| PF-10 | HU-04 | Navegar entre contenidos | La navegaciÃ³n funciona correctamente |
 
 | PF-11 | HU-05 | Aprobar contenido | El contenido cambia a estado aprobado |
 
 | PF-12 | HU-05 | Rechazar contenido | El contenido cambia a estado rechazado |
 
-| PF-13 | HU-05 | Usuario sin permisos | El sistema impide la acción |
+| PF-13 | HU-05 | Usuario sin permisos | El sistema impide la acciÃ³n |
 
-| PF-14 | HU-06 | Reproducir pronunciación | El audio funciona correctamente |
+| PF-14 | HU-06 | Reproducir pronunciaciÃ³n | El audio funciona correctamente |
 
-| PF-15 | HU-06 | Pausar pronunciación | El audio se detiene correctamente |
-
-
-
-\---
+| PF-15 | HU-06 | Pausar pronunciaciÃ³n | El audio se detiene correctamente |
 
 
 
-\# 4. Pruebas de conectividad
+---
 
 
 
-Debido al contexto del proyecto se deberán realizar pruebas con diferentes
+# 4. Pruebas de conectividad
+
+
+
+Debido al contexto del proyecto se deberÃ¡n realizar pruebas con diferentes
 
 condiciones de red.
 
 
 
-| Prueba | Condición | Resultado esperado |
+| Prueba | CondiciÃ³n | Resultado esperado |
 
 |---|---|---|
 
-| PC-01 | Conexión estable | Sistema funcional |
+| PC-01 | ConexiÃ³n estable | Sistema funcional |
 
-| PC-02 | Conexión lenta | Contenido principal disponible |
+| PC-02 | ConexiÃ³n lenta | Contenido principal disponible |
 
-| PC-03 | Conexión intermitente | El sistema maneja la interrupción |
+| PC-03 | ConexiÃ³n intermitente | El sistema maneja la interrupciÃ³n |
 
-| PC-04 | Recuperación de conexión | La operación puede continuar |
+| PC-04 | RecuperaciÃ³n de conexiÃ³n | La operaciÃ³n puede continuar |
 
-| PC-05 | Audio con conexión lenta | El audio carga sin errores críticos |
-
-
-
-\---
+| PC-05 | Audio con conexiÃ³n lenta | El audio carga sin errores crÃ­ticos |
 
 
 
-\# 5. Pruebas de rendimiento
+---
 
 
 
-Se evaluarán:
+# 5. Pruebas de rendimiento
 
 
 
-\- tiempo de respuesta;
-
-\- tiempo de carga;
-
-\- tamaño de recursos;
-
-\- consumo de datos;
-
-\- comportamiento de archivos de audio;
-
-\- comportamiento con múltiples consultas.
+Se evaluarÃ¡n:
 
 
 
-\## Meta
+- tiempo de respuesta;
+
+- tiempo de carga;
+
+- tamaÃ±o de recursos;
+
+- consumo de datos;
+
+- comportamiento de archivos de audio;
+
+- comportamiento con mÃºltiples consultas.
 
 
 
-Las funciones principales deberán responder preferentemente en un máximo
+## Meta
+
+
+
+Las funciones principales deberÃ¡n responder preferentemente en un mÃ¡ximo
 
 objetivo de 3 segundos bajo condiciones de conectividad estable.
 
 
 
-En conexiones lentas se priorizará que el contenido esencial pueda ser
+En conexiones lentas se priorizarÃ¡ que el contenido esencial pueda ser
 
 consultado aunque los elementos multimedia requieran mayor tiempo.
 
 
 
-\---
+---
 
 
 
-\# 6. Pruebas de audio
+# 6. Pruebas de audio
 
 
 
-Los archivos de audio deberán evaluarse considerando:
+Los archivos de audio deberÃ¡n evaluarse considerando:
 
 
 
-\- formato;
+- formato;
 
-\- tamaño;
+- tamaÃ±o;
 
-\- calidad;
+- calidad;
 
-\- tiempo de carga;
+- tiempo de carga;
 
-\- reproducción;
+- reproducciÃ³n;
 
-\- pausa;
+- pausa;
 
-\- reanudación;
+- reanudaciÃ³n;
 
-\- compatibilidad;
+- compatibilidad;
 
-\- conexión limitada.
-
-
-
-\## Criterios
+- conexiÃ³n limitada.
 
 
 
-Un archivo de audio se considerará satisfactorio cuando:
+## Criterios
 
 
 
-\- pueda reproducirse;
-
-\- pueda pausarse;
-
-\- pueda reanudarse;
-
-\- sea compatible con los dispositivos definidos;
-
-\- no presente errores críticos;
-
-\- tenga un tamaño razonable para el contexto de conectividad.
+Un archivo de audio se considerarÃ¡ satisfactorio cuando:
 
 
 
-\---
+- pueda reproducirse;
+
+- pueda pausarse;
+
+- pueda reanudarse;
+
+- sea compatible con los dispositivos definidos;
+
+- no presente errores crÃ­ticos;
+
+- tenga un tamaÃ±o razonable para el contexto de conectividad.
 
 
 
-\# 7. Pruebas de usabilidad
+---
 
 
 
-Las pruebas de usabilidad evaluarán si los usuarios pueden realizar las
-
-funciones principales sin conocimientos técnicos especializados.
+# 7. Pruebas de usabilidad
 
 
 
-\## Actividades
+Las pruebas de usabilidad evaluarÃ¡n si los usuarios pueden realizar las
+
+funciones principales sin conocimientos tÃ©cnicos especializados.
 
 
 
-El usuario deberá intentar:
+## Actividades
+
+
+
+El usuario deberÃ¡ intentar:
 
 
 
 1\. Buscar una palabra.
 
-2\. Consultar una expresión.
+2\. Consultar una expresiÃ³n.
 
-3\. Escuchar una pronunciación.
+3\. Escuchar una pronunciaciÃ³n.
 
-4\. Consultar información cultural.
+4\. Consultar informaciÃ³n cultural.
 
-5\. Realizar una aportación cuando corresponda.
-
-
-
-\## Indicador
+5\. Realizar una aportaciÃ³n cuando corresponda.
 
 
 
-\*\*Tasa de éxito = tareas completadas correctamente / tareas realizadas × 100\*\*
+## Indicador
 
 
 
-\### Meta
+**Tasa de Ã©xito = tareas completadas correctamente / tareas realizadas Ã— 100**
 
 
 
-\*\*≥ 90 %\*\*
+### Meta
 
 
 
-\---
+**â‰¥ 90 %**
 
 
 
-\# 8. Pruebas de accesibilidad
+---
 
 
 
-Se revisarán aspectos como:
+# 8. Pruebas de accesibilidad
 
 
 
-\- legibilidad;
-
-\- tamaño de texto;
-
-\- navegación;
-
-\- etiquetas;
-
-\- contraste;
-
-\- estructura de contenido;
-
-\- elementos multimedia.
+Se revisarÃ¡n aspectos como:
 
 
 
-Como referencia se utilizarán los criterios de WCAG 2.2.
+- legibilidad;
+
+- tamaÃ±o de texto;
+
+- navegaciÃ³n;
+
+- etiquetas;
+
+- contraste;
+
+- estructura de contenido;
+
+- elementos multimedia.
 
 
 
-\---
+Como referencia se utilizarÃ¡n los criterios de WCAG 2.2.
 
 
 
-\# 9. Pruebas de contenido
+---
 
 
 
-El contenido cultural y lingüístico requiere una revisión adicional.
+# 9. Pruebas de contenido
 
 
 
-Se comprobará:
+El contenido cultural y lingÃ¼Ã­stico requiere una revisiÃ³n adicional.
 
 
 
-\- exactitud;
-
-\- integridad;
-
-\- consistencia;
-
-\- claridad;
-
-\- origen de la información;
-
-\- estado de validación.
+Se comprobarÃ¡:
 
 
 
-El contenido que requiera validación no deberá considerarse publicado hasta
+- exactitud;
+
+- integridad;
+
+- consistencia;
+
+- claridad;
+
+- origen de la informaciÃ³n;
+
+- estado de validaciÃ³n.
+
+
+
+El contenido que requiera validaciÃ³n no deberÃ¡ considerarse publicado hasta
 
 completar el proceso correspondiente.
 
 
 
-\---
+---
 
 
 
-\# 10. Pruebas de seguridad y permisos
+# 10. Pruebas de seguridad y permisos
 
 
 
-Especialmente para HU-05 se comprobará:
+Especialmente para HU-05 se comprobarÃ¡:
 
 
 
-\- acceso autorizado;
+- acceso autorizado;
 
-\- acceso no autorizado;
+- acceso no autorizado;
 
-\- permisos administrativos;
+- permisos administrativos;
 
-\- aprobación;
+- aprobaciÃ³n;
 
-\- rechazo;
+- rechazo;
 
-\- modificación;
+- modificaciÃ³n;
 
-\- registro de cambios.
-
-
-
-\## Resultado esperado
+- registro de cambios.
 
 
 
-Un usuario sin los permisos correspondientes no deberá poder realizar
+## Resultado esperado
+
+
+
+Un usuario sin los permisos correspondientes no deberÃ¡ poder realizar
 
 acciones administrativas.
 
 
 
-\---
+---
 
 
 
-\# 11. Pruebas de regresión
+# 11. Pruebas de regresiÃ³n
 
 
 
-Después de corregir un defecto se deberán repetir las pruebas relacionadas
+DespuÃ©s de corregir un defecto se deberÃ¡n repetir las pruebas relacionadas
 
-para comprobar que la corrección no haya generado nuevos problemas.
+para comprobar que la correcciÃ³n no haya generado nuevos problemas.
 
 
 
@@ -392,35 +392,35 @@ Ejemplo:
 
 
 
-Si se corrige la reproducción de audio de HU-02, deberán repetirse:
+Si se corrige la reproducciÃ³n de audio de HU-02, deberÃ¡n repetirse:
 
 
 
-\- reproducción;
+- reproducciÃ³n;
 
-\- pausa;
+- pausa;
 
-\- reanudación;
+- reanudaciÃ³n;
 
-\- prueba en dispositivo móvil;
+- prueba en dispositivo mÃ³vil;
 
-\- prueba con conexión limitada.
-
-
-
-\---
+- prueba con conexiÃ³n limitada.
 
 
 
-\# 12. Registro de pruebas
+---
 
 
 
-Cada prueba deberá documentarse con:
+# 12. Registro de pruebas
 
 
 
-| Campo | Descripción |
+Cada prueba deberÃ¡ documentarse con:
+
+
+
+| Campo | DescripciÃ³n |
 
 |---|---|
 
@@ -428,11 +428,11 @@ Cada prueba deberá documentarse con:
 
 | HU | Historia relacionada |
 
-| Fecha | Fecha de ejecución |
+| Fecha | Fecha de ejecuciÃ³n |
 
 | Responsable | Persona que realiza la prueba |
 
-| Condición | Ambiente de prueba |
+| CondiciÃ³n | Ambiente de prueba |
 
 | Resultado esperado | Resultado definido |
 
@@ -446,61 +446,61 @@ Cada prueba deberá documentarse con:
 
 
 
-\---
+---
 
 
 
-\# 13. Criterios de aprobación
+# 13. Criterios de aprobaciÃ³n
 
 
 
-Una historia podrá aprobarse cuando:
+Una historia podrÃ¡ aprobarse cuando:
 
 
 
-\- las pruebas críticas sean exitosas;
+- las pruebas crÃ­ticas sean exitosas;
 
-\- los criterios de aceptación se cumplan;
+- los criterios de aceptaciÃ³n se cumplan;
 
-\- no existan defectos críticos abiertos;
+- no existan defectos crÃ­ticos abiertos;
 
-\- los problemas importantes estén documentados;
+- los problemas importantes estÃ©n documentados;
 
-\- las pruebas de conectividad correspondientes sean satisfactorias;
+- las pruebas de conectividad correspondientes sean satisfactorias;
 
-\- exista evidencia de las pruebas.
-
-
-
-\---
+- exista evidencia de las pruebas.
 
 
 
-\# 14. Relación con el indicador j
+---
 
 
 
-Las pruebas forman parte de las actividades de evaluación.
+# 14. RelaciÃ³n con el indicador j
+
+
+
+Las pruebas forman parte de las actividades de evaluaciÃ³n.
 
 
 
 Una mayor cantidad de pruebas preventivas puede ayudar a detectar errores
 
-antes de que lleguen a una etapa de corrección más costosa.
+antes de que lleguen a una etapa de correcciÃ³n mÃ¡s costosa.
 
 
 
-Por esta razón, los resultados de las pruebas podrán utilizarse para ajustar
+Por esta razÃ³n, los resultados de las pruebas podrÃ¡n utilizarse para ajustar
 
-las horas de prevención y corrección estimadas para cada historia.
-
-
-
-\---
+las horas de prevenciÃ³n y correcciÃ³n estimadas para cada historia.
 
 
 
-\# 15. Relación con CMMI
+---
+
+
+
+# 15. RelaciÃ³n con CMMI
 
 
 
@@ -508,13 +508,13 @@ Las pruebas apoyan principalmente las actividades de:
 
 
 
-\- verificación;
+- verificaciÃ³n;
 
-\- validación;
+- validaciÃ³n;
 
-\- medición;
+- mediciÃ³n;
 
-\- aseguramiento de calidad.
+- aseguramiento de calidad.
 
 
 
@@ -522,11 +522,11 @@ El resultado de cada prueba debe conservarse como evidencia.
 
 
 
-\---
+---
 
 
 
-\# 16. Relación con MoProSoft
+# 16. RelaciÃ³n con MoProSoft
 
 
 
@@ -540,37 +540,37 @@ Los resultados permiten:
 
 
 
-\- controlar la calidad;
+- controlar la calidad;
 
-\- detectar defectos;
+- detectar defectos;
 
-\- documentar correcciones;
+- documentar correcciones;
 
-\- evaluar entregables;
+- evaluar entregables;
 
-\- mejorar procesos.
-
-
-
-\---
+- mejorar procesos.
 
 
 
-\# 17. Criterios para cierre de defectos
+---
 
 
 
-Un defecto solamente podrá cerrarse cuando:
+# 17. Criterios para cierre de defectos
 
 
 
-1\. se haya implementado una corrección;
+Un defecto solamente podrÃ¡ cerrarse cuando:
+
+
+
+1\. se haya implementado una correcciÃ³n;
 
 2\. se haya ejecutado nuevamente la prueba;
 
 3\. el resultado sea satisfactorio;
 
-4\. no se haya generado una regresión;
+4\. no se haya generado una regresiÃ³n;
 
 5\. exista evidencia;
 
@@ -578,15 +578,15 @@ Un defecto solamente podrá cerrarse cuando:
 
 
 
-\---
+---
 
 
 
-\# 18. Conclusión
+# 18. ConclusiÃ³n
 
 
 
-El plan de pruebas permite verificar de manera sistemática las
+El plan de pruebas permite verificar de manera sistemÃ¡tica las
 
 funcionalidades del proyecto.
 
@@ -602,7 +602,8 @@ accesibilidad, seguridad y calidad del contenido.
 
 Esto permite adaptar el proceso de calidad a las condiciones del contexto
 
-Mixteca y reducir la posibilidad de detectar errores únicamente después de
+Mixteca y reducir la posibilidad de detectar errores Ãºnicamente despuÃ©s de
 
 haber terminado el desarrollo.
+
 

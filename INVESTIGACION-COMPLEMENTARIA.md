@@ -1,16 +1,16 @@
-\# INVESTIGACIÓN COMPLEMENTARIA SOBRE CALIDAD DE SOFTWARE
+﻿# INVESTIGACIÃ“N COMPLEMENTARIA SOBRE CALIDAD DE SOFTWARE
 
 
 
-\## 1. Introducción
+## 1. IntroducciÃ³n
 
 
 
 Para complementar el Plan de Calidad se revisaron diferentes referencias
 
-relacionadas con calidad de software, gestión de procesos, accesibilidad y
+relacionadas con calidad de software, gestiÃ³n de procesos, accesibilidad y
 
-evaluación de productos de software.
+evaluaciÃ³n de productos de software.
 
 
 
@@ -20,71 +20,71 @@ y WCAG 2.2.
 
 
 
-El propósito de esta investigación es identificar prácticas que puedan
+El propÃ³sito de esta investigaciÃ³n es identificar prÃ¡cticas que puedan
 
-adaptarse al proyecto de preservación y transmisión de la lengua y memoria
+adaptarse al proyecto de preservaciÃ³n y transmisiÃ³n de la lengua y memoria
 
-cultural de Santa María Cuquila.
-
-
-
-\---
+cultural de Santa MarÃ­a Cuquila.
 
 
 
-\# 2. CMMI
+---
 
 
 
-CMMI es un conjunto de buenas prácticas que permite mejorar la capacidad y
-
-el desempeño de una organización y de sus procesos.
+# 2. CMMI
 
 
 
-Para este proyecto se consideran principalmente prácticas relacionadas con:
+CMMI es un conjunto de buenas prÃ¡cticas que permite mejorar la capacidad y
+
+el desempeÃ±o de una organizaciÃ³n y de sus procesos.
 
 
 
-\- planificación;
-
-\- gestión de requisitos;
-
-\- medición y análisis;
-
-\- aseguramiento de calidad;
-
-\- verificación;
-
-\- validación;
-
-\- gestión de riesgos;
-
-\- gestión de configuración.
+Para este proyecto se consideran principalmente prÃ¡cticas relacionadas con:
 
 
 
-\## Aplicación
+- planificaciÃ³n;
+
+- gestiÃ³n de requisitos;
+
+- mediciÃ³n y anÃ¡lisis;
+
+- aseguramiento de calidad;
+
+- verificaciÃ³n;
+
+- validaciÃ³n;
+
+- gestiÃ³n de riesgos;
+
+- gestiÃ³n de configuraciÃ³n.
+
+
+
+## AplicaciÃ³n
 
 
 
 En lugar de aplicar el modelo de manera completa, el proyecto utiliza las
 
-prácticas que resultan relevantes para un proyecto académico de software.
+prÃ¡cticas que resultan relevantes para un proyecto acadÃ©mico de software.
 
 
 
-Por ejemplo, cada historia de usuario deberá contar con requisitos,
+Por ejemplo, cada historia de usuario deberÃ¡ contar con requisitos,
 
-criterios de aceptación, pruebas y evidencia.
-
-
-
-\---
+criterios de aceptaciÃ³n, pruebas y evidencia.
 
 
 
-\# 3. MoProSoft
+---
+
+
+
+# 3. MoProSoft
 
 
 
@@ -92,61 +92,61 @@ MoProSoft es un modelo mexicano de procesos para la industria de software.
 
 
 
-Su aplicación permite organizar actividades relacionadas con:
+Su aplicaciÃ³n permite organizar actividades relacionadas con:
 
 
 
-\- gestión;
+- gestiÃ³n;
 
-\- proyectos;
+- proyectos;
 
-\- procesos;
+- procesos;
 
-\- recursos;
+- recursos;
 
-\- desarrollo;
+- desarrollo;
 
-\- mantenimiento.
-
-
-
-\## Aplicación
+- mantenimiento.
 
 
 
-Para el proyecto se utilizará como referencia para organizar:
+## AplicaciÃ³n
 
 
 
-\- planeación del proyecto;
+Para el proyecto se utilizarÃ¡ como referencia para organizar:
 
-\- seguimiento del backlog;
 
-\- desarrollo;
 
-\- pruebas;
+- planeaciÃ³n del proyecto;
 
-\- documentación;
+- seguimiento del backlog;
 
-\- mantenimiento;
+- desarrollo;
 
-\- control de cambios.
+- pruebas;
+
+- documentaciÃ³n;
+
+- mantenimiento;
+
+- control de cambios.
 
 
 
 Una ventaja de utilizar MoProSoft en este contexto es que permite relacionar
 
-las prácticas de calidad con un modelo desarrollado para la realidad de la
+las prÃ¡cticas de calidad con un modelo desarrollado para la realidad de la
 
 industria mexicana de software.
 
 
 
-\---
+---
 
 
 
-\# 4. ISO/IEC 25010
+# 4. ISO/IEC 25010
 
 
 
@@ -154,31 +154,31 @@ ISO/IEC 25010 establece un modelo de calidad para productos de software.
 
 
 
-Entre los aspectos que pueden evaluarse se encuentran características
+Entre los aspectos que pueden evaluarse se encuentran caracterÃ­sticas
 
 relacionadas con:
 
 
 
-\- adecuación funcional;
+- adecuaciÃ³n funcional;
 
-\- eficiencia del desempeño;
+- eficiencia del desempeÃ±o;
 
-\- compatibilidad;
+- compatibilidad;
 
-\- interacción/usabilidad;
+- interacciÃ³n/usabilidad;
 
-\- fiabilidad;
+- fiabilidad;
 
-\- seguridad;
+- seguridad;
 
-\- mantenibilidad;
+- mantenibilidad;
 
-\- portabilidad.
+- portabilidad.
 
 
 
-\## Aplicación al proyecto
+## AplicaciÃ³n al proyecto
 
 
 
@@ -186,35 +186,35 @@ Se seleccionan especialmente:
 
 
 
-\### Adecuación funcional
+### AdecuaciÃ³n funcional
 
 
 
 El sistema debe proporcionar las funciones necesarias para consultar,
 
-aportar y validar información.
+aportar y validar informaciÃ³n.
 
 
 
-\### Eficiencia del desempeño
+### Eficiencia del desempeÃ±o
 
 
 
-Las páginas y recursos deben cargarse de manera eficiente.
+Las pÃ¡ginas y recursos deben cargarse de manera eficiente.
 
 
 
-\### Usabilidad
+### Usabilidad
 
 
 
 Las funciones deben ser comprensibles para usuarios con diferentes niveles
 
-de experiencia tecnológica.
+de experiencia tecnolÃ³gica.
 
 
 
-\### Fiabilidad
+### Fiabilidad
 
 
 
@@ -222,7 +222,7 @@ El sistema debe comportarse de forma consistente.
 
 
 
-\### Seguridad
+### Seguridad
 
 
 
@@ -230,19 +230,19 @@ Las funciones administrativas deben contar con controles de acceso.
 
 
 
-\### Mantenibilidad
+### Mantenibilidad
 
 
 
-El código y la documentación deben permitir futuras modificaciones.
+El cÃ³digo y la documentaciÃ³n deben permitir futuras modificaciones.
 
 
 
-\---
+---
 
 
 
-\# 5. WCAG 2.2
+# 5. WCAG 2.2
 
 
 
@@ -256,71 +256,71 @@ Para este proyecto son relevantes aspectos como:
 
 
 
-\- contenido perceptible;
+- contenido perceptible;
 
-\- navegación;
+- navegaciÃ³n;
 
-\- comprensión;
+- comprensiÃ³n;
 
-\- compatibilidad con diferentes tecnologías.
-
-
-
-\## Aplicación
+- compatibilidad con diferentes tecnologÃ­as.
 
 
 
-Se revisarán:
+## AplicaciÃ³n
 
 
 
-\- tamaño y legibilidad del texto;
-
-\- estructura de navegación;
-
-\- etiquetas de elementos;
-
-\- contraste;
-
-\- contenido multimedia;
-
-\- interacción mediante teclado cuando corresponda.
+Se revisarÃ¡n:
 
 
 
-\---
+- tamaÃ±o y legibilidad del texto;
+
+- estructura de navegaciÃ³n;
+
+- etiquetas de elementos;
+
+- contraste;
+
+- contenido multimedia;
+
+- interacciÃ³n mediante teclado cuando corresponda.
 
 
 
-\# 6. Relación de los estándares
+---
 
 
 
-| Referencia | Principal aportación | Aplicación |
+# 6. RelaciÃ³n de los estÃ¡ndares
+
+
+
+| Referencia | Principal aportaciÃ³n | AplicaciÃ³n |
 
 |---|---|---|
 
-| CMMI | Gestión y mejora de procesos | Planificación, medición y calidad |
+| CMMI | GestiÃ³n y mejora de procesos | PlanificaciÃ³n, mediciÃ³n y calidad |
 
-| MoProSoft | Procesos de software en contexto mexicano | Gestión y desarrollo |
+| MoProSoft | Procesos de software en contexto mexicano | GestiÃ³n y desarrollo |
 
-| ISO/IEC 25010 | Calidad del producto | Métricas y evaluación |
+| ISO/IEC 25010 | Calidad del producto | MÃ©tricas y evaluaciÃ³n |
 
-| WCAG 2.2 | Accesibilidad | Diseño y pruebas |
-
-
-
-\---
+| WCAG 2.2 | Accesibilidad | DiseÃ±o y pruebas |
 
 
 
-\# 7. Calidad y contexto tecnológico
+---
+
+
+
+# 7. Calidad y contexto tecnolÃ³gico
 
 
 
 El contexto del proyecto requiere considerar condiciones diferentes a las
 
-de un sistema diseñado exclusivamente para usuarios con Internet de alta
+de un sistema diseÃ±ado exclusivamente para usuarios con Internet de alta
 
 velocidad.
 
@@ -330,99 +330,99 @@ Por ello, la calidad debe considerar:
 
 
 
-\- conectividad limitada;
+- conectividad limitada;
 
-\- dispositivos móviles;
+- dispositivos mÃ³viles;
 
-\- consumo de datos;
+- consumo de datos;
 
-\- archivos multimedia;
+- archivos multimedia;
 
-\- facilidad de uso;
+- facilidad de uso;
 
-\- disponibilidad.
+- disponibilidad.
 
 
 
-Estas condiciones modifican la forma en que deben diseñarse y probarse
+Estas condiciones modifican la forma en que deben diseÃ±arse y probarse
 
 las funcionalidades.
 
 
 
-\---
+---
 
 
 
-\# 8. Calidad del contenido cultural
+# 8. Calidad del contenido cultural
 
 
 
-La calidad técnica no es suficiente para este proyecto.
+La calidad tÃ©cnica no es suficiente para este proyecto.
 
 
 
-La información lingüística y cultural debe mantenerse:
+La informaciÃ³n lingÃ¼Ã­stica y cultural debe mantenerse:
 
 
 
-\- clara;
+- clara;
 
-\- consistente;
+- consistente;
 
-\- correctamente registrada;
+- correctamente registrada;
 
-\- revisada;
+- revisada;
 
-\- trazable.
+- trazable.
 
 
 
-La plataforma debe evitar que información no validada sea presentada como
+La plataforma debe evitar que informaciÃ³n no validada sea presentada como
 
 contenido definitivo.
 
 
 
-Por esta razón, HU-05 tiene una función importante dentro del proceso de
+Por esta razÃ³n, HU-05 tiene una funciÃ³n importante dentro del proceso de
 
 calidad.
 
 
 
-\---
+---
 
 
 
-\# 9. Investigación aplicada mediante IA
+# 9. InvestigaciÃ³n aplicada mediante IA
 
 
 
-La inteligencia artificial se utilizó como herramienta complementaria para
+La inteligencia artificial se utilizÃ³ como herramienta complementaria para
 
 analizar las historias de usuario.
 
 
 
-El análisis permitió estructurar:
+El anÃ¡lisis permitiÃ³ estructurar:
 
 
 
-\- riesgos;
+- riesgos;
 
-\- pruebas;
+- pruebas;
 
-\- métricas;
+- mÃ©tricas;
 
-\- actividades preventivas;
+- actividades preventivas;
 
-\- actividades correctivas;
+- actividades correctivas;
 
-\- criterios de aceptación.
+- criterios de aceptaciÃ³n.
 
 
 
-La IA no sustituye la validación del equipo.
+La IA no sustituye la validaciÃ³n del equipo.
 
 
 
@@ -432,45 +432,45 @@ proyecto.
 
 
 
-\---
+---
 
 
 
-\# 10. Relación con las métricas
+# 10. RelaciÃ³n con las mÃ©tricas
 
 
 
-La investigación permitió seleccionar métricas concretas para el proyecto:
+La investigaciÃ³n permitiÃ³ seleccionar mÃ©tricas concretas para el proyecto:
 
 
 
-\- cumplimiento de criterios de aceptación;
+- cumplimiento de criterios de aceptaciÃ³n;
 
-\- cobertura de pruebas;
+- cobertura de pruebas;
 
-\- correcciones;
+- correcciones;
 
-\- validación de contenido;
+- validaciÃ³n de contenido;
 
-\- usabilidad;
+- usabilidad;
 
-\- conectividad;
+- conectividad;
 
-\- accesibilidad;
+- accesibilidad;
 
-\- relación prevención/corrección.
-
-
-
-Estas métricas permiten evaluar la calidad de forma cuantitativa.
+- relaciÃ³n prevenciÃ³n/correcciÃ³n.
 
 
 
-\---
+Estas mÃ©tricas permiten evaluar la calidad de forma cuantitativa.
 
 
 
-\# 11. Relación con el costo de calidad
+---
+
+
+
+# 11. RelaciÃ³n con el costo de calidad
 
 
 
@@ -484,47 +484,47 @@ Por ello se utiliza el indicador:
 
 
 
-\*\*j = horas de prevención / horas de corrección\*\*
+**j = horas de prevenciÃ³n / horas de correcciÃ³n**
 
 
 
-Un valor bajo indica que el proyecto está requiriendo demasiado esfuerzo
+Un valor bajo indica que el proyecto estÃ¡ requiriendo demasiado esfuerzo
 
 para corregir problemas.
 
 
 
-Un valor igual o superior a 1 indica que se está destinando al menos el
+Un valor igual o superior a 1 indica que se estÃ¡ destinando al menos el
 
-mismo esfuerzo a prevención que a corrección.
-
-
-
-\---
+mismo esfuerzo a prevenciÃ³n que a correcciÃ³n.
 
 
 
-\# 12. Conclusiones de la investigación
+---
 
 
 
-La investigación complementaria demuestra que la calidad del software debe
+# 12. Conclusiones de la investigaciÃ³n
+
+
+
+La investigaciÃ³n complementaria demuestra que la calidad del software debe
 
 considerarse desde diferentes perspectivas.
 
 
 
-CMMI aporta prácticas para mejorar la gestión y control de procesos.
+CMMI aporta prÃ¡cticas para mejorar la gestiÃ³n y control de procesos.
 
 
 
-MoProSoft permite relacionar estas prácticas con un modelo orientado a la
+MoProSoft permite relacionar estas prÃ¡cticas con un modelo orientado a la
 
 industria mexicana de software.
 
 
 
-ISO/IEC 25010 proporciona características para evaluar la calidad del
+ISO/IEC 25010 proporciona caracterÃ­sticas para evaluar la calidad del
 
 producto.
 
@@ -534,41 +534,41 @@ WCAG 2.2 permite incorporar criterios de accesibilidad.
 
 
 
-La combinación de estas referencias permite construir un Plan de Calidad
+La combinaciÃ³n de estas referencias permite construir un Plan de Calidad
 
-más completo y adaptado al proyecto.
-
-
-
-\---
+mÃ¡s completo y adaptado al proyecto.
 
 
 
-\# 13. Fuentes consultadas
+---
 
 
 
-1\. CMMI Institute. \*CMMI\*.  
+# 13. Fuentes consultadas
+
+
+
+1\. CMMI Institute. *CMMI*.  
 
 &#x20;  https://cmmiinstitute.com/
 
 
 
-2\. Diario Oficial de la Federación. \*Modelo de procesos para la industria
+2\. Diario Oficial de la FederaciÃ³n. *Modelo de procesos para la industria
 
-&#x20;  de software (MoProSoft)\*.  
+&#x20;  de software (MoProSoft)*.  
 
-&#x20;  https://dof.gob.mx/nota\_detalle\_popup.php?codigo=5453674
+&#x20;  https://dof.gob.mx/nota_detalle_popup.php?codigo=5453674
 
 
 
 3\. International Organization for Standardization. (2023).
 
-&#x20;  \*ISO/IEC 25010:2023 — Systems and software engineering — Systems and
+&#x20;  *ISO/IEC 25010:2023 â€” Systems and software engineering â€” Systems and
 
-&#x20;  software Quality Requirements and Evaluation (SQuaRE) — Product quality
+&#x20;  software Quality Requirements and Evaluation (SQuaRE) â€” Product quality
 
-&#x20;  model\*.  
+&#x20;  model*.  
 
 &#x20;  https://www.iso.org/standard/78176.html
 
@@ -576,23 +576,23 @@ más completo y adaptado al proyecto.
 
 4\. World Wide Web Consortium. (2023).
 
-&#x20;  \*Web Content Accessibility Guidelines (WCAG) 2.2\*.  
+&#x20;  *Web Content Accessibility Guidelines (WCAG) 2.2*.  
 
 &#x20;  https://www.w3.org/TR/WCAG22/
 
 
 
-\---
+---
 
 
 
-\# 14. Nota sobre el alcance
+# 14. Nota sobre el alcance
 
 
 
-Las referencias anteriores se utilizan como fuentes técnicas para adaptar
+Las referencias anteriores se utilizan como fuentes tÃ©cnicas para adaptar
 
-prácticas al proyecto.
+prÃ¡cticas al proyecto.
 
 
 
@@ -602,7 +602,8 @@ ni WCAG.
 
 
 
-La aplicación documentada corresponde a una actividad académica de
+La aplicaciÃ³n documentada corresponde a una actividad acadÃ©mica de
 
-adaptación de prácticas de calidad.
+adaptaciÃ³n de prÃ¡cticas de calidad.
+
 
