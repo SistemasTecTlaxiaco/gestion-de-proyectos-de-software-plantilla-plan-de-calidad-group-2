@@ -26,7 +26,7 @@
 
 
 
-El presente Plan de Calidad establece los criterios, objetivos, métricas, actividades de prevención, evaluación y corrección que se utilizarán para controlar la calidad del proyecto de software orientado a la preservación y transmisión de la lengua y memoria cultural de Santa María Cuquila.
+El presente Plan de Calidad establece los criterios, objetivos, métricas, actividades de prevención, evaluación y corrección que se utilizarán para controlar la calidad del proyecto de software orientado a la preservación y transmisión de la lengua y memoria cultural de Santa María Cuquila..
 
 
 
