@@ -192,7 +192,8 @@ Un archivo de audio se considerará satisfactorio cuando:
 - no presente errores críticos;
 
 - tenga un tamaño razonable para el contexto de conectividad.
-
+  
+-Comprensión: El mensaje o información transmitida debe ser entendible para el oyente.
 
 
 ---
