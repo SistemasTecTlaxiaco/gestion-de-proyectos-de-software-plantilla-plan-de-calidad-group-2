@@ -3,7 +3,7 @@
 
 
 ## 1. Objetivo
-
+.
 
 
 Definir las pruebas necesarias para verificar que las historias de usuario
