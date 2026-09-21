@@ -467,7 +467,7 @@ las horas de prevención y corrección estimadas para cada historia.
 
 
 
-# 15. Relación con CMMI
+# 15. Relación con CMMI.
 
 
 
