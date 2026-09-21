@@ -111,7 +111,6 @@ condiciones de red.
 Se evaluarán:
 
 
-
 - tiempo de respuesta;
 
 - tiempo de carga;
